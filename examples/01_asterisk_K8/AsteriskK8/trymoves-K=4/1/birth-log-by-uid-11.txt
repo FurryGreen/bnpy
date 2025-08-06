@@ -1,0 +1,48 @@
+STATUS uid    11  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 ELIGIBLE 
+Creating proposal for targetUID 11 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 411.00 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 411 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.283e+03
+  163.00   37.00  166.00   45.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     40   41   42   43
+   165. 163. 44.9 36.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0822  after 0.0016.
+ pi[new comps]: 0.0201 0.0201 0.0201 0.0201
+     40   41   42   43
+   148. 141. 62.0 59.6
+   135. 125. 75.4 74.5
+   125. 115. 85.4 84.9
+   117. 108. 92.4 91.8
+   117. 108. 184. m 42
+   129. 120. 161.     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Eval    targetUID 11 at lap 3.000 lapCeil 3 | REJECT change_loss  1.368e-02
+   gainL  1.368e-02
+    curL -2.947e-02
+   propL -1.579e-02
+   gain_  Lalloc -4.728e-02
+   gain_   Ldata  1.492e-02
+   gain_Lentropy  1.868e-02
+   Rejected. Remain at loss -2.947e-02
+
+STATUS uid    11  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 DISQUALIFIED FOR PAST FAILURE
+STATUS uid    11  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 DISQUALIFIED FOR PAST FAILURE
+STATUS uid    11  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 DISQUALIFIED FOR PAST FAILURE
+STATUS uid    11  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL

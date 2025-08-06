@@ -1,0 +1,38 @@
+STATUS uid     6  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b  1260.408 N_ttl  1260.408 ELIGIBLE 
+Creating proposal for targetUID 6 at lap 2.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 1260.41 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 1261 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -4.022e+03
+  290.84  131.00  364.67  466.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+      8    9   10   11
+   465. 364. 290. 130.
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.2519  after 0.0050.
+ pi[new comps]: 0.0617 0.0617 0.0617 0.0617
+      8    9   10   11
+   456. 378. 276. 149.
+   498. 336. 267. 158.
+   527. 306. 274. 150.
+   546. 287. 285. 140.
+   557. 277. 292. 133.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Eval     targetUID 6 at lap 2.000 lapCeil 2 | ACCEPT change_loss -1.891e-01 Knew    4
+   gainL -1.891e-01
+    curL  4.193e-01
+   propL  2.301e-01
+   gain_  Lalloc -1.621e-01
+   gain_   Ldata  2.985e-01
+   gain_Lentropy  5.267e-02
+   Accepted. Jump up to loss  2.301e-01 
+    Mass transfered to new comps: 1260.41
+    Remaining mass at targetUID 6: 0.00
+
+STATUS uid     6  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+STATUS uid     6  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+STATUS uid     6  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL

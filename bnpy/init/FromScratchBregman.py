@@ -483,7 +483,15 @@ def makeDataSubsetByThresholdResp(
                 Natoms_targetAboveThr=Natoms_targetAboveThr,
                 )
             return DebugInfo, None, None, None, None
-        targetData = Data.make_subset(example_id_list=chosenRespIDs)
+        if isinstance(Data, bnpy.data.GroupXData):
+            #targetData = Data.make_subset(atomMask=chosenRespIDs)
+            targetRespVec = curLP['resp'][:,ktarget]
+            targetData, docIDs, chosenRespIDs = \
+            Data.makeSubsetByThresholdingWeights(
+                atomWeightVec=targetRespVec,
+                thr=minRespForEachTargetAtom)
+        else:
+            targetData = Data.make_subset(example_id_list=chosenRespIDs)
         targetX = targetData.X
         if curLP is None:
             targetW = None

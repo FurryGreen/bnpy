@@ -1,0 +1,1 @@
+STATUS uid     1  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b 67582.795 N_ttl 67582.795 ELIGIBLE 

@@ -1,0 +1,21 @@
+MERGE @ lap 1.00: Disabled. Cannot plan merge on first lap. Need valid SS that represent whole dataset.
+MERGE @ lap 2.00: Disabled. Waiting for lap >= 5 (--m_startLap).
+MERGE @ lap 3.00: Disabled. Waiting for lap >= 5 (--m_startLap).
+MERGE @ lap 4.00: Disabled. Waiting for lap >= 5 (--m_startLap).
+MERGE @ lap 5.00 : 8/63 accepted. Ndiff 338.97. 33 skipped.
+MERGE @ lap 6.00 : 10/39 accepted. Ndiff 1032.92. 38 skipped.
+MERGE @ lap 7.00 : 5/35 accepted. Ndiff 323.06. 14 skipped.
+MERGE @ lap 8.00 : 4/24 accepted. Ndiff 443.50. 12 skipped.
+MERGE @ lap 9.00 : 3/22 accepted. Ndiff 185.39. 7 skipped.
+MERGE @ lap 10.00 : 1/13 accepted. Ndiff 1.72. 1 skipped.
+MERGE @ lap 11.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.
+MERGE @ lap 12.00: No promising candidates, so no attempts.
+MERGE @ lap 13.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.
+MERGE @ lap 14.00 : 0/11 accepted. Ndiff 0.00. 0 skipped.
+MERGE @ lap 15.00 : 0/9 accepted. Ndiff 0.00. 0 skipped.
+MERGE @ lap 16.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.
+MERGE @ lap 17.00: No promising candidates, so no attempts.
+MERGE @ lap 18.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.
+MERGE @ lap 19.00 : 0/11 accepted. Ndiff 0.00. 0 skipped.
+MERGE @ lap 20.00 : 0/9 accepted. Ndiff 0.00. 0 skipped.
+MERGE @ lap 21.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.

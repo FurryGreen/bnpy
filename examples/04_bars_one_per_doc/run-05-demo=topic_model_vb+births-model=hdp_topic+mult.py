@@ -23,7 +23,7 @@ pylab.rcParams['figure.figsize'] = FIG_SIZE
 dataset_path = os.path.join(bnpy.DATASET_PATH, 'bars_one_per_doc')
 dataset = bnpy.data.BagOfWordsData.read_npz(
     os.path.join(dataset_path, 'dataset.npz'))
-
+print(dataset)
 ###############################################################################
 #
 # Set the local step algorithmic keyword args
@@ -57,9 +57,9 @@ birth_kwargs = dict(
 def show_bars_over_time(
         task_output_path=None,
         query_laps=[0, 1, 2, 5, None],
-        ncols=10):
-    '''
-    '''
+        ncols=10,
+        save_path=None):  # 增加一个参数，用于保存路径
+
     nrows = len(query_laps)
     fig_handle, ax_handles_RC = pylab.subplots(
         figsize=(SMALL_FIG_SIZE[0] * ncols, SMALL_FIG_SIZE[1] * nrows),
@@ -67,14 +67,20 @@ def show_bars_over_time(
     for row_id, lap_val in enumerate(query_laps):
         cur_model, lap_val = bnpy.load_model_at_lap(task_output_path, lap_val)
         cur_topics_KV = cur_model.obsModel.getTopics()
-        # Plot the current model
         cur_ax_list = ax_handles_RC[row_id].flatten().tolist()
         bnpy.viz.BarsViz.show_square_images(
             cur_topics_KV,
             vmin=0.0, vmax=0.06,
             ax_list=cur_ax_list)
         cur_ax_list[0].set_ylabel("lap: %d" % lap_val)
+
     pylab.tight_layout()
+    
+    if save_path is not None:
+        pylab.savefig(save_path)  # 保存图片到指定路径
+        print(f"Figure saved to {save_path}")
+    pylab.close(fig_handle)  # 关闭图，防止内存泄漏
+
 
 ###############################################################################
 # Training from K=3 with births
@@ -84,7 +90,7 @@ def show_bars_over_time(
 
 trained_model, info_dict = bnpy.run(
     dataset, 'HDPTopicModel', 'Mult', 'memoVB',
-    output_path='/tmp/bars_one_per_doc/trymoves-model=hdp+mult-K=3-moves=birth,merge,shuffle/',
+    output_path='/inspire/hdd/global_user/wuyuxuan-240108110054/multask/bnpy/data/bars_one_per_doc/trymoves-model=hdp+mult-K=3-moves=birth,merge,shuffle/',
     nLap=20, convergeThr=0.001, nBatch=1,
     K=3, initname='randomlikewang',
     alpha=0.5, lam=0.1,
@@ -93,5 +99,5 @@ trained_model, info_dict = bnpy.run(
            list(local_step_kwargs.items()) + 
            list(birth_kwargs.items())))
 
-show_bars_over_time(info_dict['task_output_path'])
+show_bars_over_time(info_dict['task_output_path'], save_path='./topic_bars.png')
 

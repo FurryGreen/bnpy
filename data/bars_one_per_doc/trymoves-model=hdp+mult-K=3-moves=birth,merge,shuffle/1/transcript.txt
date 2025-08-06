@@ -1,0 +1,17 @@
+Dataset Summary:
+BagOfWordsData
+  total size: 2000 units
+  batch size: 2000 units
+  num. batches: 1
+Allocation Model:  HDP model with K=0 active comps. gamma=1.00. alpha=0.50
+Obs. Data  Model:  Multinomial over finite vocabulary.
+Obs. Data  Prior:  Dirichlet over finite vocabulary 
+  lam = [0.1 0.1] ...
+Initialization:
+  initname = randomlikewang
+  K = 3 (number of clusters)
+  seed = 1607680
+  elapsed_time: 0.0 sec
+Learn Alg: memoVB | task  1/1 | alg. seed: 1607680 | data order seed: 8541952
+task_output_path: /inspire/hdd/global_user/wuyuxuan-240108110054/multask/bnpy/data/bars_one_per_doc/trymoves-model=hdp+mult-K=3-moves=birth,merge,shuffle/1
+    1.000/20 after      0 sec. |    155.4 MiB | K    3 | loss  5.011009805e+00 |  

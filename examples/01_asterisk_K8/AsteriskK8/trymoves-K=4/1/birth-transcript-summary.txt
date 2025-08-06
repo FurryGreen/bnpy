@@ -1,0 +1,17 @@
+BIRTH @ lap 1.00: Disabled. Waiting for lap >= 2 (--b_startLap).
+BIRTH @ lap 2.00 : Added 8 states. 2/4 succeeded. 2/4 failed eval phase. 0/4 failed build phase.
+BIRTH @ lap 3.00 : Added 0 states. 0/9 succeeded. 9/9 failed eval phase. 0/9 failed build phase.
+BIRTH @ lap 4.00 : Added 0 states. 0/3 succeeded. 3/3 failed eval phase. 0/3 failed build phase.
+BIRTH @ lap 5.000 : None attempted. 0 past failures. 0 too small. 12 too busy.
+BIRTH @ lap 6.000 : None attempted. 1 past failures. 0 too small. 9 too busy.
+BIRTH @ lap 7.000 : None attempted. 0 past failures. 0 too small. 8 too busy.
+BIRTH @ lap 8.00 : Added 0 states. 0/1 succeeded. 1/1 failed eval phase. 0/1 failed build phase.
+BIRTH @ lap 9.00 : Added 0 states. 0/1 succeeded. 1/1 failed eval phase. 0/1 failed build phase.
+BIRTH @ lap 10.000 : None attempted. 1 past failures. 0 too small. 7 too busy.
+BIRTH @ lap 11.000 : None attempted. 2 past failures. 0 too small. 6 too busy.
+BIRTH @ lap 12.000 : None attempted. 0 past failures. 0 too small. 8 too busy.
+BIRTH @ lap 13.000 : None attempted. 5 past failures. 0 too small. 3 too busy.
+BIRTH @ lap 14.000 : None attempted. 8 past failures. 0 too small. 0 too busy.
+BIRTH @ lap 15.000 : None attempted. 1 past failures. 0 too small. 7 too busy.
+BIRTH @ lap 16.000 : None attempted. 2 past failures. 0 too small. 6 too busy.
+BIRTH @ lap 17.000 : None attempted. 0 past failures. 0 too small. 8 too busy.

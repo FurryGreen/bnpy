@@ -80,3 +80,5 @@ TextFileReaderX.c
 *.synctex.gz
 *.out
 *.bak
+
+*.png

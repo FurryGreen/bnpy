@@ -1,0 +1,37 @@
+STATUS uid    23  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b   118.953 N_ttl   118.953 ELIGIBLE 
+Creating proposal for targetUID 23 at lap 2.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 118.95 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 192 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -4.294e+02
+   28.83   44.09   27.63   14.81
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     85   86   87   88
+   44.0 28.8 27.6 14.8
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0226  after 0.0005.
+ pi[new comps]: 0.0055 0.0055 0.0055 0.0055
+     85   86   87   88
+   43.5 32.9 27.2 15.1
+   39.8 34.7 28.0 16.2
+   37.1 34.7 28.9 18.0
+   35.1 34.0 29.6 20.0
+   35.1 63.7 m 86 20.0
+   98.8 m 85      20.0
+   118.           m 85
+   118.               
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid    23  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b   114.777 N_ttl   114.777 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.04 > 0.01
+ prevBatchSize    118.95 
+ curBatchSize    114.78
+STATUS uid    23  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   109.250 N_ttl   109.250 ELIGIBLE 
+STATUS uid    23  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   102.724 N_ttl   102.724 BUSY MERGE PROPOSAL
+STATUS uid    23  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b    95.026 N_ttl    95.026 BUSY MERGE PROPOSAL
+STATUS uid    23  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b    86.180 N_ttl    86.180 BUSY MERGE PROPOSAL
+STATUS uid    23  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b    76.428 N_ttl    76.428 BUSY MERGE PROPOSAL
+STATUS uid    23  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b    66.092 N_ttl    66.092 BUSY MERGE PROPOSAL

@@ -1,0 +1,2 @@
+MERGE @ lap 1.00: Disabled. Cannot plan merge on first lap. Need valid SS that represent whole dataset.
+MERGE @ lap 2.00: Disabled. Waiting for lap >= 5 (--m_startLap).

@@ -1,0 +1,25 @@
+STATUS uid     0  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b 77316.482 N_ttl 77316.482 ELIGIBLE 
+Creating proposal for targetUID 0 at lap 2.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+ Provided dataset of 2000.00 docs in BagOfWordsData format.
+ Targeting cluster at idx 0 in provided LP with K=3 clusters.
+ Target cluster has 1940.00 docs assigned with mass >0.100.
+ Target docs contain subset of words in corrsp. original doc.
+ Across target docs, distrib. of nDistinctTypes  :   0%     2    10%    17    50%    36    90%    46   100%    52  
+                              of mass (wc * resp):   0%     1.0  10%     9.8  50%    33.6  90%    73.4 100%    92.6
+Running Bregman k-means with K=3 for 1 iters
+iter 0: Lscore 5.221e+05
+     972     722     246
+Bregman k-means DONE. Delivered 3 non-empty clusters
+      3    4    5
+    35k  21k 8443
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.3240  after 0.0065.
+ pi[new comps]: 0.1058 0.1058 0.1058
+ LP info nCAIters    0%       5|  10%      10|  50%      15|  90%      25| 100%      99
+         Ndiff       0%   0.000|  10%   0.000|  50%   0.000|  90%   0.006| 100%   0.230
+      3    4    5
+    36k  28k  11k
+    36k  28k  12k
+    35k  27k  13k

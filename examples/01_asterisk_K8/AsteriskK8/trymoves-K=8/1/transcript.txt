@@ -1,0 +1,40 @@
+Dataset Summary:
+X Data
+  total size: 5000 units
+  batch size: 5000 units
+  num. batches: 1
+Allocation Model:  DP mixture with K=0. Concentration gamma0= 1.00
+Obs. Data  Model:  Gaussian with full covariance.
+Obs. Data  Prior:  Gauss-Wishart on mean and covar of each cluster
+  E[  mean[k] ] = 
+   [0. 0.] 
+  E[ covar[k] ] = 
+  [[0.1 0. ]
+   [0.  0.1]]
+Initialization:
+  initname = randexamples
+  K = 8 (number of clusters)
+  seed = 1607680
+  elapsed_time: 0.0 sec
+Learn Alg: memoVB | task  1/1 | alg. seed: 1607680 | data order seed: 8541952
+task_output_path: ./AsteriskK8/trymoves-K=8/1
+    1.000/100 after      0 sec. |    175.1 MiB | K    8 | loss  6.479391366e-01 |  
+    2.000/100 after      6 sec. |    175.1 MiB | K   20 | loss  7.345925210e-02 |  
+    3.000/100 after     16 sec. |    175.1 MiB | K   20 | loss  1.384405895e-02 | Ndiff   78.701 
+    4.000/100 after     24 sec. |    175.1 MiB | K   20 | loss  1.057016337e-02 | Ndiff   14.549 
+    5.000/100 after     24 sec. |    175.2 MiB | K   17 | loss -3.619883330e-03 | Ndiff   14.549 
+    6.000/100 after     25 sec. |    175.2 MiB | K   13 | loss -2.198388303e-02 | Ndiff   14.549 
+    7.000/100 after     25 sec. |    175.2 MiB | K   10 | loss -4.222694604e-02 | Ndiff   14.549 
+    8.000/100 after     26 sec. |    175.2 MiB | K    8 | loss -4.787951351e-02 | Ndiff   14.549 
+    9.000/100 after     26 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.002 
+   10.000/100 after     28 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   11.000/100 after     29 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   12.000/100 after     30 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   13.000/100 after     30 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   14.000/100 after     30 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   15.000/100 after     30 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   16.000/100 after     31 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   17.000/100 after     31 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   18.000/100 after     31 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+   19.000/100 after     32 sec. |    175.2 MiB | K    8 | loss -4.787962433e-02 | Ndiff    0.000 
+... done. converged.

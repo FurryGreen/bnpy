@@ -251,7 +251,8 @@ class GroupXData(XData):
         Dchunk : bnpy.data.GroupXData instance
         """
         if atomMask is not None:
-            return self.toXData().select_subset_by_mask(atomMask)
+        #    return self.toXData().select_subset_by_mask(atomMask)
+            return self.toXData().make_subset(atomMask)
 
         if len(docMask) < 1:
             raise ValueError('Cannot select empty subset')
@@ -296,6 +297,87 @@ class GroupXData(XData):
                           Xprev=newXprev,
                           nDocTotal=nDocTotal,
                           TrueZ=newTrueZ)
+
+    def makeSubsetByThresholdingWeights(self, atomWeightVec, thr=0):
+        """
+        Returns GroupXData object representing subset of this dataset,
+        only keeping atoms with weight >= thr,
+        and deleting empty groups.
+
+        Parameters
+        ----------
+        atomWeightVec : 1D array, size N
+            Weight vector per atom (row of X)
+        thr : float
+            Threshold value
+
+        Returns
+        -------
+        Dtarget : GroupXData object
+            New dataset with selected atoms
+        docIDs : list of int
+            Indices of kept documents in original dataset
+        atomIDs : np.ndarray of int
+            Indices of kept atoms in original dataset
+        """
+
+        N = atomWeightVec.size
+        assert N == self.X.shape[0], "Weight vector size mismatch with data."
+
+        docIDs = []
+        atomIDs = []
+        newDocRange = [0]
+
+        for d in range(self.nDoc):
+            start = self.doc_range[d]
+            stop = self.doc_range[d+1]
+
+            # 获取当前 doc 内满足阈值的 atom 下标（相对当前 doc）
+            atomIDs_d = np.flatnonzero(atomWeightVec[start:stop] >= thr)
+
+            if atomIDs_d.size > 0:
+                # 更新 atomIDs（转为全局下标）
+                atomIDs.extend(atomIDs_d + start)
+
+                # 记录保留的 doc id
+                docIDs.append(d)
+
+                # 更新 newDocRange
+                newDocRange.append(newDocRange[-1] + atomIDs_d.size)
+
+        if len(atomIDs) == 0:
+            return None, docIDs, np.asarray(atomIDs)
+
+        atomIDs = np.asarray(atomIDs)
+        newDocRange = np.asarray(newDocRange)
+
+        # Subset X
+        newX = self.X[atomIDs, :]
+
+        # Subset Xprev if exists
+        if hasattr(self, 'Xprev') and self.Xprev is not None:
+            newXprev = self.Xprev[atomIDs, :]
+        else:
+            newXprev = None
+
+        # Subset TrueZ if exists
+        if hasattr(self, 'TrueParams') and 'Z' in self.TrueParams:
+            TrueZ = self.TrueParams['Z']
+            newTrueZ = TrueZ[atomIDs]
+        else:
+            newTrueZ = None
+
+        # Build new GroupXData
+        Dtarget = GroupXData(
+            newX,
+            newDocRange,
+            Xprev=newXprev,
+            nDocTotal=self.nDocTotal,
+            TrueZ=newTrueZ
+        )
+        #print('new doc range:', newDocRange)
+        return Dtarget, docIDs, atomIDs
+
 
     def add_data(self, XDataObj):
         """ Appends (in-place) provided dataset to this dataset.

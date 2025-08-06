@@ -1,0 +1,13 @@
+STATUS uid    60  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b    10.701 N_ttl    10.701 ELIGIBLE 
+Creating proposal for targetUID 60 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 10.70 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 1 atoms meeting this requirement.
+Proposal initialization FAILED. Filtered dataset too small.Wanted 4 items, found 1.
+
+STATUS uid    60  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b     3.768 N_ttl     3.768 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 1.84 > 0.01
+ prevBatchSize     10.70 
+ curBatchSize      3.77
+STATUS uid    60  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     0.760 N_ttl     0.760 BUSY MERGE PROPOSAL

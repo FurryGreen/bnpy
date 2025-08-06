@@ -1,0 +1,125 @@
+STATUS uid     4  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b   323.247 N_ttl   323.247 ELIGIBLE 
+Creating proposal for targetUID 4 at lap 2.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 323.25 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 738 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.155e+03
+   55.22  121.13   78.12   64.61
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     41   42   43   44
+   121. 78.1 64.6 55.2
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0493  after 0.0010.
+ pi[new comps]: 0.0121 0.0121 0.0121 0.0121
+     41   42   43   44
+   113. 83.2 62.4 63.9
+   104. 87.0 61.3 70.3
+   97.7 87.9 63.3 74.2
+   92.8 87.2 66.4 76.7
+   92.8 87.2 143. m 43
+   92.8 101. 129.     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Eval     targetUID 4 at lap 2.000 lapCeil 2 | REJECT change_loss  1.246e-02
+   gainL  1.246e-02
+    curL  1.925e-01
+   propL  2.050e-01
+   gain_  Lalloc -3.710e-02
+   gain_   Ldata  5.038e-03
+   gain_Lentropy  1.960e-02
+   Rejected. Remain at loss 1.925e-01
+
+STATUS uid     4  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b   386.724 N_ttl   386.724 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.16 > 0.01
+ prevBatchSize    323.25 
+ curBatchSize    386.72
+STATUS uid     4  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   421.277 N_ttl   421.277 ELIGIBLE 
+Creating proposal for targetUID 4 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 421.28 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 769 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.545e+03
+   76.97  136.62  188.78   16.37
+Bregman k-means DONE. Delivered 4 non-empty clusters
+    181  182  183  184
+   188. 136. 76.9 16.3
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0775  after 0.0015.
+ pi[new comps]: 0.0190 0.0190 0.0190 0.0190
+    181  182  183  184
+   167. 146. 82.5 25.2
+   150. 149. 86.6 34.4
+   137. 148. 88.4 46.1
+   129. 144. 89.7 58.2
+   129. 144. 148. m183
+   140. 139. 141.     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Eval     targetUID 4 at lap 4.000 lapCeil 4 | REJECT change_loss  2.019e-02
+   gainL  2.019e-02
+    curL  8.021e-02
+   propL  1.004e-01
+   gain_  Lalloc -5.378e-02
+   gain_   Ldata  9.330e-03
+   gain_Lentropy  2.425e-02
+   Rejected. Remain at loss 8.021e-02
+
+STATUS uid     4  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   452.506 N_ttl   452.506 BUSY MERGE PROPOSAL
+STATUS uid     4  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   480.823 N_ttl   480.823 BUSY MERGE PROPOSAL
+STATUS uid     4  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   694.817 N_ttl   694.817 BUSY MERGE PROPOSAL
+STATUS uid     4  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   706.521 N_ttl   706.521 BUSY MERGE PROPOSAL
+STATUS uid     4  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     4  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     4  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.50 > 0.01
+ prevBatchSize    421.28 
+ curBatchSize    841.01
+Creating proposal for targetUID 4 at lap 11.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 841.01 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 841 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -2.798e+03
+  504.00   92.00   35.00  210.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+    229  230  231  232
+   503. 209. 92.0 35.0
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.1683  after 0.0034.
+ pi[new comps]: 0.0412 0.0412 0.0412 0.0412
+    229  230  231  232
+   482. 206. 81.2 71.5
+   442. 222. 84.5 91.2
+   405. 234. 95.6 105.
+   373. 239. 110. 117.
+   373. 239. 228. m231
+   347. 262. 231.     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Eval     targetUID 4 at lap 11.000 lapCeil 11 | REJECT change_loss  1.640e-02
+   gainL  1.640e-02
+    curL -4.788e-02
+   propL -3.148e-02
+   gain_  Lalloc -9.259e-02
+   gain_   Ldata  3.906e-02
+   gain_Lentropy  3.713e-02
+   Rejected. Remain at loss -4.788e-02
+
+STATUS uid     4  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     4  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     4  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     4  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     4  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     4  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     4  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     4  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     4  lap  20.000 lapCeil    20 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     4  lap  21.000 lapCeil    21 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 DISQUALIFIED FOR PAST FAILURE

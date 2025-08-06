@@ -46,7 +46,8 @@ pylab.tight_layout()
 def show_clusters_over_time(
         task_output_path=None,
         query_laps=[0, 1, 2, 5, 10, None],
-        nrows=2):
+        nrows=2, 
+        img_path=None):
     ''' Read model snapshots from provided folder and make visualizations
 
     Post Condition
@@ -67,6 +68,8 @@ def show_clusters_over_time(
         cur_ax_handle.set_yticks([-2, -1, 0, 1, 2])
         cur_ax_handle.set_xlabel("lap: %d" % lap_val)
     pylab.tight_layout()
+    if img_path is not None:
+        pylab.savefig(img_path)
 
 
 ###############################################################################
@@ -77,14 +80,14 @@ def show_clusters_over_time(
 
 K1_trained_model, K1_info_dict = bnpy.run(
     dataset, 'DPMixtureModel', 'Gauss', 'memoVB',
-    output_path='/tmp/AsteriskK8/trymoves-K=1/',
+    output_path='./AsteriskK8/trymoves-K=1/',
     nLap=100, nTask=1, nBatch=1,
     sF=0.1, ECovMat='eye',
     K=1, initname='randexamples',
     moves='birth,merge,shuffle',
     m_startLap=5, b_startLap=2, b_Kfresh=4)
 
-show_clusters_over_time(K1_info_dict['task_output_path'])
+show_clusters_over_time(K1_info_dict['task_output_path'], img_path = './AsteriskK8/K1.png')
 
 ###############################################################################
 # Training from K=4 cluster
@@ -94,14 +97,14 @@ show_clusters_over_time(K1_info_dict['task_output_path'])
 
 K4_trained_model, K4_info_dict = bnpy.run(
     dataset, 'DPMixtureModel', 'Gauss', 'memoVB',
-    output_path='/tmp/AsteriskK8/trymoves-K=4/',
+    output_path='./AsteriskK8/trymoves-K=4/',
     nLap=100, nTask=1, nBatch=1,
     sF=0.1, ECovMat='eye',
     K=4, initname='randexamples',
     moves='birth,merge,shuffle',
     m_startLap=5, b_startLap=2, b_Kfresh=4)
 
-show_clusters_over_time(K4_info_dict['task_output_path'])
+show_clusters_over_time(K4_info_dict['task_output_path'], img_path = './AsteriskK8/K4.png')
 
 ###############################################################################
 # Training from K=8 cluster
@@ -111,14 +114,14 @@ show_clusters_over_time(K4_info_dict['task_output_path'])
 
 K8_trained_model, K8_info_dict = bnpy.run(
     dataset, 'DPMixtureModel', 'Gauss', 'memoVB',
-    output_path='/tmp/AsteriskK8/trymoves-K=8/',
+    output_path='./AsteriskK8/trymoves-K=8/',
     nLap=100, nTask=1, nBatch=1,
     sF=0.1, ECovMat='eye',
     K=8, initname='randexamples',
     moves='birth,merge,shuffle',
     m_startLap=5, b_startLap=2, b_Kfresh=4)
 
-show_clusters_over_time(K8_info_dict['task_output_path'])
+show_clusters_over_time(K8_info_dict['task_output_path'], img_path = './AsteriskK8/K8.png')
 
 ###############################################################################
 # Training from K=25 cluster
@@ -128,11 +131,11 @@ show_clusters_over_time(K8_info_dict['task_output_path'])
 
 K25_trained_model, K25_info_dict = bnpy.run(
     dataset, 'DPMixtureModel', 'Gauss', 'memoVB',
-    output_path='/tmp/AsteriskK8/trymoves-K=25/',
+    output_path='./AsteriskK8/trymoves-K=25/',
     nLap=100, nTask=1, nBatch=1,
     sF=0.1, ECovMat='eye',
     K=25, initname='randexamples',
     moves='birth,merge,shuffle',
     m_startLap=5, b_startLap=2, b_Kfresh=4)
 
-show_clusters_over_time(K25_info_dict['task_output_path'])
+show_clusters_over_time(K25_info_dict['task_output_path'], img_path = './AsteriskK8/K25.png')

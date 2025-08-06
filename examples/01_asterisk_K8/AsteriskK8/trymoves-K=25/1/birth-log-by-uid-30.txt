@@ -1,0 +1,59 @@
+STATUS uid    30  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b   134.804 N_ttl   134.804 ELIGIBLE 
+Creating proposal for targetUID 30 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 134.80 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 401 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -4.641e+02
+    9.25   18.98   46.27   51.96
+Bregman k-means DONE. Delivered 4 non-empty clusters
+    105  106  107  108
+   51.9 46.2 18.9 9.24
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0259  after 0.0005.
+ pi[new comps]: 0.0063 0.0063 0.0063 0.0063
+    105  106  107  108
+   44.4 38.4 30.7 21.1
+   37.6 34.6 34.3 28.1
+   35.0 33.5 34.9 31.3
+   33.9 33.2 34.7 32.7
+   33.9 33.2 67.5 m107
+   101. 33.2 m105     
+   134. m105          
+   134.               
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid    30  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   136.177 N_ttl   136.177 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.01 > 0.01
+ prevBatchSize    134.80 
+ curBatchSize    136.18
+Creating proposal for targetUID 30 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 136.18 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 422 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -4.680e+02
+   57.63   19.33   24.21   26.54
+Bregman k-means DONE. Delivered 4 non-empty clusters
+    213  214  215  216
+   57.6 26.5 24.2 19.3
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0270  after 0.0005.
+ pi[new comps]: 0.0066 0.0066 0.0066 0.0066
+    213  214  215  216
+   47.9 31.6 26.9 29.5
+   40.7 33.8 27.3 34.2
+   37.0 34.5 29.2 35.3
+   35.1 34.7 30.9 35.3
+   35.1 70.0 30.9 m214
+   35.1 101. m214     
+   136. m213          
+   136.               
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid    30  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   137.978 N_ttl   137.978 BUSY MERGE PROPOSAL
+STATUS uid    30  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   133.507 N_ttl   133.507 BUSY MERGE PROPOSAL

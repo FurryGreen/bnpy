@@ -1,0 +1,6 @@
+SHUFFLED at lap 2.000. diff -8.5196e-04   prev_loss  7.3988e-01   new_loss  7.3903e-01
+SHUFFLED at lap 3.000. diff -3.9200e-03   prev_loss  3.2113e-02   new_loss  2.8193e-02
+SHUFFLED at lap 4.000. diff -1.6445e-06   prev_loss -1.2406e-02   new_loss -1.2408e-02
+SHUFFLED at lap 5.000. diff -1.0970e-05   prev_loss -2.7412e-02   new_loss -2.7423e-02
+SHUFFLED at lap 6.000. diff -2.6476e-06   prev_loss -4.6264e-02   new_loss -4.6267e-02
+SHUFFLED at lap 8.000. diff -9.5193e-05   prev_loss -4.7597e-02   new_loss -4.7692e-02

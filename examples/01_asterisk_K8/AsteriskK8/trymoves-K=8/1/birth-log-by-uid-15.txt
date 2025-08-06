@@ -1,0 +1,75 @@
+STATUS uid    15  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b   183.491 N_ttl   183.491 ELIGIBLE 
+Creating proposal for targetUID 15 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 183.49 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 315 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -6.443e+02
+   15.11   82.89   25.73   56.08
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     68   69   70   71
+   82.8 56.0 25.7 15.1
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0370  after 0.0007.
+ pi[new comps]: 0.0091 0.0091 0.0091 0.0091
+     68   69   70   71
+   72.3 56.9 33.3 20.8
+   64.7 56.6 38.0 24.0
+   59.1 55.4 40.3 28.5
+   54.9 53.7 41.8 32.8
+   54.9 53.7 74.7 m 70
+   129. 53.7 m 68     
+   119. 64.2          
+Proposal build phase DONE. Created 2 candidate clusters.
+
+Eval    targetUID 15 at lap 3.000 lapCeil 3 | REJECT change_loss  6.999e-03
+   gainL  6.999e-03
+    curL  1.386e-02
+   propL  2.085e-02
+   gain_  Lalloc -1.446e-02
+   gain_   Ldata  1.773e-03
+   gain_Lentropy  5.691e-03
+   Rejected. Remain at loss 1.386e-02
+
+STATUS uid    15  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   181.178 N_ttl   181.178 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.01 > 0.01
+ prevBatchSize    183.49 
+ curBatchSize    181.18
+Creating proposal for targetUID 15 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 181.18 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 317 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -6.334e+02
+   62.64    6.99   56.59   51.19
+Bregman k-means DONE. Delivered 4 non-empty clusters
+    124  125  126  127
+   62.6 56.5 51.1 6.99
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0365  after 0.0007.
+ pi[new comps]: 0.0089 0.0089 0.0089 0.0089
+    124  125  126  127
+   59.7 49.3 52.3 19.7
+   53.9 44.8 49.5 32.9
+   50.0 43.1 47.9 40.0
+   47.8 42.7 47.4 43.2
+   47.8 42.7 90.6 m126
+   138. 42.7 m124     
+   125. 55.7          
+Proposal build phase DONE. Created 2 candidate clusters.
+
+Eval    targetUID 15 at lap 4.000 lapCeil 4 | REJECT change_loss  6.851e-03
+   gainL  6.851e-03
+    curL  1.057e-02
+   propL  1.742e-02
+   gain_  Lalloc -1.380e-02
+   gain_   Ldata  1.633e-03
+   gain_Lentropy  5.312e-03
+   Rejected. Remain at loss 1.057e-02
+
+STATUS uid    15  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   178.870 N_ttl   178.870 BUSY MERGE PROPOSAL
+STATUS uid    15  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   176.328 N_ttl   176.328 BUSY MERGE PROPOSAL

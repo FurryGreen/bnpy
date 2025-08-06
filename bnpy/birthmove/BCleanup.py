@@ -16,6 +16,7 @@ def cleanupDeleteSmallClusters(
         Will not exactly represent data Dslice afterwards (if delete occurs).
     '''
     CountVec = xSSslice.getCountVec()
+    #print(CountVec)
     badids = np.flatnonzero(CountVec < minNumAtomsToStay)
     massRemoved = np.sum(CountVec[badids])
     for k in reversed(badids):

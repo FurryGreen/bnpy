@@ -1,0 +1,41 @@
+STATUS uid     5  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b   897.410 N_ttl   897.410 ELIGIBLE 
+Creating proposal for targetUID 5 at lap 2.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 897.41 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 1101 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -2.848e+03
+   90.00  317.37  148.63  331.67
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     12   13   14   15
+   331. 317. 148. 89.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.1854  after 0.0037.
+ pi[new comps]: 0.0454 0.0454 0.0454 0.0454
+     12   13   14   15
+   314. 298. 172. 112.
+   271. 274. 215. 135.
+   233. 253. 254. 156.
+   201. 236. 285. 173.
+   179. 224. 308. 185.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Eval     targetUID 5 at lap 2.000 lapCeil 2 | ACCEPT change_loss -1.288e-01 Knew    4
+   gainL -1.288e-01
+    curL  2.301e-01
+   propL  1.013e-01
+   gain_  Lalloc -1.243e-01
+   gain_   Ldata  2.196e-01
+   gain_Lentropy  3.344e-02
+   Accepted. Jump up to loss  1.013e-01 
+    Mass transfered to new comps: 897.41
+    Remaining mass at targetUID 5: 0.00
+
+STATUS uid     5  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+STATUS uid     5  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+STATUS uid     5  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+STATUS uid     5  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+STATUS uid     5  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+STATUS uid     5  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL

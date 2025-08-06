@@ -1,0 +1,1151 @@
+MERGE @ lap 1.00: Disabled. Cannot plan merge on first lap. Need valid SS that represent whole dataset.
+MERGE @ lap 2.00: Disabled. Waiting for lap >= 5 (--m_startLap).
+MERGE @ lap 3.00: Disabled. Waiting for lap >= 5 (--m_startLap).
+MERGE @ lap 4.00: Disabled. Waiting for lap >= 5 (--m_startLap).
+PLANNING merges at lap 5.00. K=39
+   0/39 UIDs ineligible because on shortlist for births. 
+   741/741 pairs eligible. 0 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   4,   17 : pair_score 1.250e+03, size 421. 828.
+   3,   17 : pair_score 1.187e+03, size 358. 828.
+   0,   17 : pair_score 1.174e+03, size 345. 828.
+   6,   17 : pair_score 1.134e+03, size 305. 828.
+  14,   17 : pair_score 1.121e+03, size 292. 828.
+   3,    4 : pair_score 7.801e+02, size 358. 421.
+   0,    4 : pair_score 7.667e+02, size 345. 421.
+   4,    6 : pair_score 7.266e+02, size 421. 305.
+   4,   14 : pair_score 7.135e+02, size 421. 292.
+   0,    3 : pair_score 7.042e+02, size 345. 358.
+   3,    6 : pair_score 6.641e+02, size 358. 305.
+   3,   14 : pair_score 6.510e+02, size 358. 292.
+   0,    6 : pair_score 6.507e+02, size 345. 305.
+   0,   14 : pair_score 6.376e+02, size 345. 292.
+   6,   14 : pair_score 5.975e+02, size 305. 292.
+  11,   21 : pair_score 4.247e+02, size 203. 221.
+   1,   21 : pair_score 4.030e+02, size 181. 221.
+   8,   21 : pair_score 3.975e+02, size 176. 221.
+   1,   11 : pair_score 3.848e+02, size 181. 203.
+   8,   11 : pair_score 3.793e+02, size 176. 203.
+  21,   57 : pair_score 3.643e+02, size 221. 142.
+  21,   29 : pair_score 3.601e+02, size 221. 138.
+   1,    8 : pair_score 3.576e+02, size 181. 176.
+  11,   57 : pair_score 3.461e+02, size 203. 142.
+  11,   29 : pair_score 3.419e+02, size 203. 138.
+   1,   57 : pair_score 3.244e+02, size 181. 142.
+   1,   29 : pair_score 3.202e+02, size 181. 138.
+   8,   57 : pair_score 3.189e+02, size 176. 142.
+   8,   29 : pair_score 3.147e+02, size 176. 138.
+  29,   57 : pair_score 2.815e+02, size 138. 142.
+   9,   30 : pair_score 2.688e+02, size 132. 136.
+  30,   58 : pair_score 2.644e+02, size 136. 128.
+   9,   58 : pair_score 2.609e+02, size 132. 128.
+  30,   31 : pair_score 2.522e+02, size 136. 116.
+   9,   31 : pair_score 2.486e+02, size 132. 116.
+  23,   30 : pair_score 2.454e+02, size 109. 136.
+  31,   58 : pair_score 2.443e+02, size 116. 128.
+   9,   23 : pair_score 2.419e+02, size 132. 109.
+   7,   30 : pair_score 2.417e+02, size 105. 136.
+   7,    9 : pair_score 2.381e+02, size 105. 132.
+  23,   58 : pair_score 2.375e+02, size 109. 128.
+   7,   58 : pair_score 2.338e+02, size 105. 128.
+  23,   31 : pair_score 2.253e+02, size 109. 116.
+   7,   31 : pair_score 2.215e+02, size 105. 116.
+   7,   23 : pair_score 2.148e+02, size 105. 109.
+   2,   45 : pair_score 1.952e+02, size 100. 94.7
+   2,   47 : pair_score 1.935e+02, size 100. 93.0
+  45,   47 : pair_score 1.879e+02, size 94.7 93.0
+   2,   46 : pair_score 1.789e+02, size 100. 78.5
+  45,   46 : pair_score 1.733e+02, size 94.7 78.5
+  46,   47 : pair_score 1.716e+02, size 78.5 93.0
+   2,   78 : pair_score 1.659e+02, size 100. 65.4
+   2,   19 : pair_score 1.631e+02, size 100. 62.6
+  45,   78 : pair_score 1.603e+02, size 94.7 65.4
+  47,   78 : pair_score 1.586e+02, size 93.0 65.4
+  19,   45 : pair_score 1.575e+02, size 62.6 94.7
+  19,   47 : pair_score 1.558e+02, size 62.6 93.0
+  46,   78 : pair_score 1.440e+02, size 78.5 65.4
+  19,   46 : pair_score 1.412e+02, size 62.6 78.5
+  19,   78 : pair_score 1.281e+02, size 62.6 65.4
+  13,   32 : pair_score 8.879e+01, size 53.1 35.6
+  13,   79 : pair_score 6.856e+01, size 53.1 15.4
+  13,   18 : pair_score 6.838e+01, size 53.1 15.2
+  13,   15 : pair_score 6.605e+01, size 53.1 12.9
+  13,   16 : pair_score 6.239e+01, size 53.1 9.25
+  32,   79 : pair_score 5.109e+01, size 35.6 15.4
+  18,   32 : pair_score 5.091e+01, size 15.2 35.6
+  15,   32 : pair_score 4.858e+01, size 12.9 35.6
+  16,   32 : pair_score 4.492e+01, size 9.25 35.6
+  18,   79 : pair_score 3.067e+01, size 15.2 15.4
+  15,   79 : pair_score 2.834e+01, size 12.9 15.4
+  15,   18 : pair_score 2.816e+01, size 12.9 15.2
+  16,   79 : pair_score 2.469e+01, size 9.25 15.4
+  16,   18 : pair_score 2.451e+01, size 9.25 15.2
+  15,   16 : pair_score 2.218e+01, size 12.9 9.25
+  48,   77 : pair_score 1.250e+01, size 6.19 6.29
+  60,   77 : pair_score 1.007e+01, size 3.76 6.29
+  20,   77 : pair_score 1.004e+01, size 3.74 6.29
+  48,   60 : pair_score 9.966e+00, size 6.19 3.76
+  20,   48 : pair_score 9.941e+00, size 3.74 6.19
+  20,   60 : pair_score 7.512e+00, size 3.74 3.76
+  24,   77 : pair_score 6.512e+00, size 0.21 6.29
+  24,   48 : pair_score 6.412e+00, size 0.21 6.19
+  12,   77 : pair_score 6.298e+00, size <.01 6.29
+   5,   48 : pair_score 6.198e+00, size <.01 6.19
+  24,   60 : pair_score 3.983e+00, size 0.21 3.76
+  20,   24 : pair_score 3.957e+00, size 3.74 0.21
+   5,   60 : pair_score 3.768e+00, size <.01 3.76
+  20,   22 : pair_score 3.743e+00, size 3.74 <.01
+  12,   24 : pair_score 2.142e-01, size <.01 0.21
+  10,   22 : pair_score 1.000e-36, size <.01 <.01
+   5,   12 : pair_score 1.000e-36, size <.01 <.01
+  12,   22 : pair_score 1.000e-36, size <.01 <.01
+  10,   12 : pair_score 1.000e-36, size <.01 <.01
+   5,   22 : pair_score 1.000e-36, size <.01 <.01
+   5,   10 : pair_score 1.000e-36, size <.01 <.01
+EVALUATING merges at lap 5.00
+   4,   17 : rejected. changed_loss  2.886e-01   merged_size 1282  
+   3,   17 : rejected. changed_loss  2.750e-01   merged_size 1203  
+   0,   17 : rejected. changed_loss  9.810e-02   merged_size 1186  
+   6,   17 : rejected. changed_loss  2.105e-01   merged_size 1145  
+  14,   17 : rejected. changed_loss  2.058e-01   merged_size 1131  
+   3,    4 : rejected. changed_loss  8.388e-02   merged_size 825.  
+   0,    4 : rejected. changed_loss  1.858e-01   merged_size 809.  
+   4,    6 : rejected. changed_loss  1.369e-01   merged_size 768.  
+   4,   14 : rejected. changed_loss  1.379e-01   merged_size 753.  
+   0,    3 : rejected. changed_loss  1.659e-01   merged_size 729.  
+   3,    6 : rejected. changed_loss  1.283e-01   merged_size 688.  
+   3,   14 : rejected. changed_loss  1.213e-01   merged_size 674.  
+   0,    6 : rejected. changed_loss  1.317e-01   merged_size 672.  
+   0,   14 : rejected. changed_loss  1.261e-01   merged_size 658.  
+   6,   14 : rejected. changed_loss  1.275e-01   merged_size 616.  
+  11,   21 : rejected. changed_loss  3.834e-02   merged_size 421.  
+   1,   21 : ACCEPTED. changed_loss -4.608e-03   merged_size 399.  
+   8,   21 : skipped.
+   1,   11 : skipped.
+Skip eval of uids 8,11 at lap 5.00
+   8,   11 : rejected. changed_loss  6.996e-02   merged_size 386.  
+  21,   57 : skipped.
+  21,   29 : skipped.
+   1,    8 : skipped.
+Skip eval of uids 11,57 at lap 5.00
+  11,   57 : rejected. changed_loss  5.908e-02   merged_size 355.  
+Skip eval of uids 11,29 at lap 5.00
+  11,   29 : rejected. changed_loss  7.175e-02   merged_size 339.  
+   1,   57 : skipped.
+   1,   29 : skipped.
+Skip eval of uids 8,57 at lap 5.00
+   8,   57 : rejected. changed_loss  6.311e-02   merged_size 335.  
+Skip eval of uids 8,29 at lap 5.00
+   8,   29 : rejected. changed_loss  5.761e-02   merged_size 319.  
+Skip eval of uids 29,57 at lap 5.00
+  29,   57 : rejected. changed_loss  4.974e-02   merged_size 288.  
+Skip eval of uids 9,30 at lap 5.00
+   9,   30 : rejected. changed_loss  4.307e-02   merged_size 269.  
+Skip eval of uids 30,58 at lap 5.00
+  30,   58 : rejected. changed_loss  4.841e-02   merged_size 262.  
+Skip eval of uids 9,58 at lap 5.00
+   9,   58 : rejected. changed_loss  3.633e-02   merged_size 256.  
+Skip eval of uids 30,31 at lap 5.00
+  30,   31 : rejected. changed_loss  4.330e-02   merged_size 262.  
+Skip eval of uids 9,31 at lap 5.00
+   9,   31 : rejected. changed_loss  5.135e-02   merged_size 255.  
+Skip eval of uids 23,30 at lap 5.00
+  23,   30 : rejected. changed_loss  4.334e-02   merged_size 240.  
+Skip eval of uids 31,58 at lap 5.00
+  31,   58 : rejected. changed_loss  3.731e-02   merged_size 249.  
+Skip eval of uids 9,23 at lap 5.00
+   9,   23 : rejected. changed_loss  2.164e-02   merged_size 233.  
+Skip eval of uids 7,30 at lap 5.00
+   7,   30 : rejected. changed_loss  4.219e-02   merged_size 241.  
+Skip eval of uids 7,9 at lap 5.00
+   7,    9 : rejected. changed_loss  4.702e-02   merged_size 234.  
+Skip eval of uids 23,58 at lap 5.00
+  23,   58 : rejected. changed_loss  3.656e-02   merged_size 227.  
+Skip eval of uids 7,58 at lap 5.00
+   7,   58 : rejected. changed_loss  3.656e-02   merged_size 227.  
+Skip eval of uids 23,31 at lap 5.00
+  23,   31 : rejected. changed_loss  4.795e-02   merged_size 227.  
+Skip eval of uids 7,31 at lap 5.00
+   7,   31 : rejected. changed_loss  2.210e-02   merged_size 227.  
+Skip eval of uids 7,23 at lap 5.00
+   7,   23 : rejected. changed_loss  4.276e-02   merged_size 205.  
+Skip eval of uids 2,45 at lap 5.00
+   2,   45 : rejected. changed_loss  2.815e-02   merged_size 189.  
+Skip eval of uids 2,47 at lap 5.00
+   2,   47 : rejected. changed_loss  2.658e-02   merged_size 191.  
+Skip eval of uids 45,47 at lap 5.00
+  45,   47 : ACCEPTED. changed_loss -4.910e-03   merged_size 186.  
+Skip eval of uids 2,46 at lap 5.00
+Skip eval of uids 2,46 at lap 5.00
+   2,   46 : rejected. changed_loss  3.179e-02   merged_size 170.  
+  45,   46 : skipped.
+  46,   47 : skipped.
+Skip eval of uids 2,78 at lap 5.00
+Skip eval of uids 2,78 at lap 5.00
+   2,   78 : rejected. changed_loss  2.935e-02   merged_size 156.  
+Skip eval of uids 2,19 at lap 5.00
+Skip eval of uids 2,19 at lap 5.00
+   2,   19 : rejected. changed_loss  2.288e-02   merged_size 147.  
+  45,   78 : skipped.
+  47,   78 : skipped.
+  19,   45 : skipped.
+  19,   47 : skipped.
+Skip eval of uids 46,78 at lap 5.00
+Skip eval of uids 46,78 at lap 5.00
+  46,   78 : ACCEPTED. changed_loss -3.994e-03   merged_size 132.  
+  19,   46 : skipped.
+  19,   78 : skipped.
+Skip eval of uids 13,32 at lap 5.00
+Skip eval of uids 13,32 at lap 5.00
+Skip eval of uids 13,32 at lap 5.00
+  13,   32 : rejected. changed_loss  9.667e-03   merged_size 68.9  
+Skip eval of uids 13,79 at lap 5.00
+Skip eval of uids 13,79 at lap 5.00
+Skip eval of uids 13,79 at lap 5.00
+  13,   79 : rejected. changed_loss  7.221e-03   merged_size 51.1  
+Skip eval of uids 13,18 at lap 5.00
+Skip eval of uids 13,18 at lap 5.00
+Skip eval of uids 13,18 at lap 5.00
+  13,   18 : rejected. changed_loss  3.178e-03   merged_size 49.7  
+Skip eval of uids 13,15 at lap 5.00
+Skip eval of uids 13,15 at lap 5.00
+Skip eval of uids 13,15 at lap 5.00
+  13,   15 : rejected. changed_loss  6.121e-03   merged_size 48.7  
+Skip eval of uids 13,16 at lap 5.00
+Skip eval of uids 13,16 at lap 5.00
+Skip eval of uids 13,16 at lap 5.00
+  13,   16 : rejected. changed_loss  2.074e-03   merged_size 45.6  
+Skip eval of uids 32,79 at lap 5.00
+Skip eval of uids 32,79 at lap 5.00
+Skip eval of uids 32,79 at lap 5.00
+  32,   79 : rejected. changed_loss  3.457e-03   merged_size 35.7  
+Skip eval of uids 18,32 at lap 5.00
+Skip eval of uids 18,32 at lap 5.00
+Skip eval of uids 18,32 at lap 5.00
+  18,   32 : rejected. changed_loss  3.806e-03   merged_size 34.3  
+Skip eval of uids 15,32 at lap 5.00
+Skip eval of uids 15,32 at lap 5.00
+Skip eval of uids 15,32 at lap 5.00
+  15,   32 : rejected. changed_loss  4.588e-03   merged_size 33.4  
+Skip eval of uids 16,32 at lap 5.00
+Skip eval of uids 16,32 at lap 5.00
+Skip eval of uids 16,32 at lap 5.00
+  16,   32 : rejected. changed_loss  2.364e-03   merged_size 30.2  
+Skip eval of uids 18,79 at lap 5.00
+Skip eval of uids 18,79 at lap 5.00
+Skip eval of uids 18,79 at lap 5.00
+  18,   79 : rejected. changed_loss  6.863e-04   merged_size 16.5  
+Skip eval of uids 15,79 at lap 5.00
+Skip eval of uids 15,79 at lap 5.00
+Skip eval of uids 15,79 at lap 5.00
+  15,   79 : rejected. changed_loss  1.615e-03   merged_size 15.6  
+Skip eval of uids 15,18 at lap 5.00
+Skip eval of uids 15,18 at lap 5.00
+Skip eval of uids 15,18 at lap 5.00
+  15,   18 : rejected. changed_loss  1.284e-03   merged_size 14.2  
+Skip eval of uids 16,79 at lap 5.00
+Skip eval of uids 16,79 at lap 5.00
+Skip eval of uids 16,79 at lap 5.00
+  16,   79 : rejected. changed_loss  6.577e-04   merged_size 12.4  
+Skip eval of uids 16,18 at lap 5.00
+Skip eval of uids 16,18 at lap 5.00
+Skip eval of uids 16,18 at lap 5.00
+  16,   18 : ACCEPTED. changed_loss -5.018e-04   merged_size 11.0  
+  15,   16 : skipped.
+Skip eval of uids 48,77 at lap 5.00
+Skip eval of uids 48,77 at lap 5.00
+Skip eval of uids 48,77 at lap 5.00
+Skip eval of uids 48,77 at lap 5.00
+  48,   77 : ACCEPTED. changed_loss -4.800e-04   merged_size 6.82  
+  60,   77 : skipped.
+  20,   77 : skipped.
+  48,   60 : skipped.
+  20,   48 : skipped.
+Skip eval of uids 20,60 at lap 5.00
+Skip eval of uids 20,60 at lap 5.00
+Skip eval of uids 20,60 at lap 5.00
+Skip eval of uids 20,60 at lap 5.00
+Skip eval of uids 20,60 at lap 5.00
+  20,   60 : ACCEPTED. changed_loss -2.609e-04   merged_size 1.63  
+  24,   77 : skipped.
+  24,   48 : skipped.
+  12,   77 : skipped.
+   5,   48 : skipped.
+  24,   60 : skipped.
+  20,   24 : skipped.
+   5,   60 : skipped.
+  20,   22 : skipped.
+Skip eval of uids 12,24 at lap 5.00
+Skip eval of uids 12,24 at lap 5.00
+Skip eval of uids 12,24 at lap 5.00
+Skip eval of uids 12,24 at lap 5.00
+Skip eval of uids 12,24 at lap 5.00
+Skip eval of uids 12,24 at lap 5.00
+  12,   24 : ACCEPTED. changed_loss  1.130e-07   merged_size <.01  
+Skip eval of uids 10,22 at lap 5.00
+Skip eval of uids 10,22 at lap 5.00
+Skip eval of uids 10,22 at lap 5.00
+Skip eval of uids 10,22 at lap 5.00
+Skip eval of uids 10,22 at lap 5.00
+Skip eval of uids 10,22 at lap 5.00
+Skip eval of uids 10,22 at lap 5.00
+  10,   22 : ACCEPTED. changed_loss -3.765e-08   merged_size <.01  
+   5,   12 : skipped.
+  12,   22 : skipped.
+  10,   12 : skipped.
+   5,   22 : skipped.
+   5,   10 : skipped.
+MERGE @ lap 5.00 : 8/63 accepted. Ndiff 338.97. 33 skipped.
+PLANNING merges at lap 6.00. K=31
+   0/31 UIDs ineligible because on shortlist for births. 
+   422/465 pairs eligible. 43 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   1,   17 : pair_score 1.230e+03, size 399. 830.
+  11,   17 : pair_score 1.033e+03, size 203. 830.
+  17,   45 : pair_score 1.017e+03, size 830. 186.
+   8,   17 : pair_score 1.014e+03, size 183. 830.
+  17,   57 : pair_score 9.827e+02, size 830. 152.
+   1,    4 : pair_score 8.525e+02, size 399. 452.
+   1,    3 : pair_score 7.728e+02, size 399. 372.
+   0,    1 : pair_score 7.568e+02, size 356. 399.
+   1,    6 : pair_score 7.157e+02, size 399. 315.
+   4,   11 : pair_score 6.557e+02, size 452. 203.
+   4,   45 : pair_score 6.393e+02, size 452. 186.
+   4,    8 : pair_score 6.359e+02, size 452. 183.
+   4,   57 : pair_score 6.050e+02, size 452. 152.
+   3,   11 : pair_score 5.760e+02, size 372. 203.
+   0,   11 : pair_score 5.599e+02, size 356. 203.
+   3,   45 : pair_score 5.596e+02, size 372. 186.
+   3,    8 : pair_score 5.562e+02, size 372. 183.
+   0,   45 : pair_score 5.436e+02, size 356. 186.
+   0,    8 : pair_score 5.402e+02, size 356. 183.
+   3,   57 : pair_score 5.253e+02, size 372. 152.
+   6,   11 : pair_score 5.189e+02, size 315. 203.
+   0,   57 : pair_score 5.093e+02, size 356. 152.
+   6,   45 : pair_score 5.025e+02, size 315. 186.
+   6,    8 : pair_score 4.991e+02, size 315. 183.
+   6,   57 : pair_score 4.682e+02, size 315. 152.
+  14,   30 : pair_score 4.392e+02, size 301. 137.
+  14,   29 : pair_score 4.376e+02, size 301. 136.
+  14,   46 : pair_score 4.337e+02, size 301. 132.
+   9,   14 : pair_score 4.324e+02, size 131. 301.
+  14,   58 : pair_score 4.262e+02, size 301. 124.
+  29,   30 : pair_score 2.744e+02, size 136. 137.
+  30,   46 : pair_score 2.704e+02, size 137. 132.
+  29,   46 : pair_score 2.688e+02, size 136. 132.
+   9,   29 : pair_score 2.675e+02, size 131. 136.
+   9,   46 : pair_score 2.635e+02, size 131. 132.
+  29,   58 : pair_score 2.613e+02, size 136. 124.
+  46,   58 : pair_score 2.573e+02, size 132. 124.
+   2,   30 : pair_score 2.355e+02, size 97.5 137.
+   2,    9 : pair_score 2.286e+02, size 97.5 131.
+   2,   58 : pair_score 2.224e+02, size 97.5 124.
+   2,   31 : pair_score 2.222e+02, size 97.5 124.
+   2,    7 : pair_score 2.005e+02, size 97.5 103.
+  19,   30 : pair_score 1.880e+02, size 50.0 137.
+   9,   19 : pair_score 1.811e+02, size 131. 50.0
+  19,   58 : pair_score 1.750e+02, size 50.0 124.
+  19,   31 : pair_score 1.747e+02, size 50.0 124.
+  13,   31 : pair_score 1.668e+02, size 42.1 124.
+   7,   19 : pair_score 1.531e+02, size 103. 50.0
+  31,   32 : pair_score 1.515e+02, size 124. 26.7
+   7,   13 : pair_score 1.452e+02, size 103. 42.1
+  13,   23 : pair_score 1.449e+02, size 42.1 102.
+  16,   31 : pair_score 1.358e+02, size 11.0 124.
+   7,   32 : pair_score 1.298e+02, size 103. 26.7
+  23,   32 : pair_score 1.295e+02, size 102. 26.7
+   7,   16 : pair_score 1.141e+02, size 103. 11.0
+  16,   23 : pair_score 1.138e+02, size 11.0 102.
+  23,   79 : pair_score 1.117e+02, size 102. 8.99
+  23,   48 : pair_score 1.095e+02, size 102. 6.82
+  13,   16 : pair_score 5.322e+01, size 42.1 11.0
+  13,   48 : pair_score 4.897e+01, size 42.1 6.82
+  16,   32 : pair_score 3.783e+01, size 11.0 26.7
+  32,   48 : pair_score 3.358e+01, size 26.7 6.82
+  48,   79 : pair_score 1.582e+01, size 6.82 8.99
+  15,   48 : pair_score 1.347e+01, size 6.64 6.82
+  20,   79 : pair_score 1.063e+01, size 1.63 8.99
+  12,   79 : pair_score 8.993e+00, size <.01 8.99
+   5,   79 : pair_score 8.993e+00, size <.01 8.99
+  15,   20 : pair_score 8.276e+00, size 6.64 1.63
+  12,   15 : pair_score 6.643e+00, size <.01 6.64
+   5,   15 : pair_score 6.642e+00, size <.01 6.64
+  10,   15 : pair_score 6.642e+00, size <.01 6.64
+  12,   20 : pair_score 1.634e+00, size <.01 1.63
+  10,   20 : pair_score 1.634e+00, size <.01 1.63
+   5,   20 : pair_score 1.634e+00, size <.01 1.63
+  10,   12 : pair_score 3.766e-04, size <.01 <.01
+   5,   12 : pair_score 3.766e-04, size <.01 <.01
+   5,   10 : pair_score 1.500e-36, size <.01 <.01
+EVALUATING merges at lap 6.00
+   1,   17 : rejected. changed_loss  2.782e-01   merged_size 1244  
+  11,   17 : rejected. changed_loss  2.469e-01   merged_size 1032  
+  17,   45 : rejected. changed_loss  6.097e-02   merged_size 1027  
+   8,   17 : rejected. changed_loss  1.833e-01   merged_size 1022  
+  17,   57 : rejected. changed_loss  1.675e-01   merged_size 986.  
+   1,    4 : rejected. changed_loss  6.630e-02   merged_size 894.  
+   1,    3 : ACCEPTED. changed_loss -8.750e-03   merged_size 782.  
+   0,    1 : skipped.
+   1,    6 : skipped.
+Skip eval of uids 4,11 at lap 6.00
+   4,   11 : ACCEPTED. changed_loss -6.132e-03   merged_size 682.  
+   4,   45 : skipped.
+   4,    8 : skipped.
+   4,   57 : skipped.
+   3,   11 : skipped.
+   0,   11 : skipped.
+   3,   45 : skipped.
+   3,    8 : skipped.
+Skip eval of uids 0,45 at lap 6.00
+Skip eval of uids 0,45 at lap 6.00
+   0,   45 : ACCEPTED. changed_loss -5.430e-03   merged_size 565.  
+   0,    8 : skipped.
+   3,   57 : skipped.
+   6,   11 : skipped.
+   0,   57 : skipped.
+   6,   45 : skipped.
+Skip eval of uids 6,8 at lap 6.00
+Skip eval of uids 6,8 at lap 6.00
+Skip eval of uids 6,8 at lap 6.00
+   6,    8 : rejected. changed_loss  3.565e-02   merged_size 516.  
+Skip eval of uids 6,57 at lap 6.00
+Skip eval of uids 6,57 at lap 6.00
+Skip eval of uids 6,57 at lap 6.00
+   6,   57 : rejected. changed_loss  9.387e-02   merged_size 480.  
+Skip eval of uids 14,30 at lap 6.00
+Skip eval of uids 14,30 at lap 6.00
+Skip eval of uids 14,30 at lap 6.00
+  14,   30 : rejected. changed_loss  7.743e-02   merged_size 443.  
+Skip eval of uids 14,29 at lap 6.00
+Skip eval of uids 14,29 at lap 6.00
+Skip eval of uids 14,29 at lap 6.00
+  14,   29 : rejected. changed_loss  8.398e-02   merged_size 442.  
+Skip eval of uids 14,46 at lap 6.00
+Skip eval of uids 14,46 at lap 6.00
+Skip eval of uids 14,46 at lap 6.00
+  14,   46 : rejected. changed_loss  3.160e-02   merged_size 440.  
+Skip eval of uids 9,14 at lap 6.00
+Skip eval of uids 9,14 at lap 6.00
+Skip eval of uids 9,14 at lap 6.00
+   9,   14 : rejected. changed_loss  8.801e-02   merged_size 438.  
+Skip eval of uids 14,58 at lap 6.00
+Skip eval of uids 14,58 at lap 6.00
+Skip eval of uids 14,58 at lap 6.00
+  14,   58 : rejected. changed_loss  6.243e-02   merged_size 428.  
+Skip eval of uids 29,30 at lap 6.00
+Skip eval of uids 29,30 at lap 6.00
+Skip eval of uids 29,30 at lap 6.00
+  29,   30 : ACCEPTED. changed_loss -5.739e-03   merged_size 265.  
+  30,   46 : skipped.
+  29,   46 : skipped.
+   9,   29 : skipped.
+Skip eval of uids 9,46 at lap 6.00
+Skip eval of uids 9,46 at lap 6.00
+Skip eval of uids 9,46 at lap 6.00
+Skip eval of uids 9,46 at lap 6.00
+   9,   46 : rejected. changed_loss  4.910e-02   merged_size 259.  
+  29,   58 : skipped.
+Skip eval of uids 46,58 at lap 6.00
+Skip eval of uids 46,58 at lap 6.00
+Skip eval of uids 46,58 at lap 6.00
+Skip eval of uids 46,58 at lap 6.00
+  46,   58 : rejected. changed_loss  3.358e-02   merged_size 248.  
+   2,   30 : skipped.
+Skip eval of uids 2,9 at lap 6.00
+Skip eval of uids 2,9 at lap 6.00
+Skip eval of uids 2,9 at lap 6.00
+Skip eval of uids 2,9 at lap 6.00
+   2,    9 : ACCEPTED. changed_loss -5.139e-03   merged_size 221.  
+   2,   58 : skipped.
+   2,   31 : skipped.
+   2,    7 : skipped.
+  19,   30 : skipped.
+   9,   19 : skipped.
+Skip eval of uids 19,58 at lap 6.00
+Skip eval of uids 19,58 at lap 6.00
+Skip eval of uids 19,58 at lap 6.00
+Skip eval of uids 19,58 at lap 6.00
+Skip eval of uids 19,58 at lap 6.00
+  19,   58 : ACCEPTED. changed_loss -3.549e-03   merged_size 155.  
+  19,   31 : skipped.
+Skip eval of uids 13,31 at lap 6.00
+Skip eval of uids 13,31 at lap 6.00
+Skip eval of uids 13,31 at lap 6.00
+Skip eval of uids 13,31 at lap 6.00
+Skip eval of uids 13,31 at lap 6.00
+Skip eval of uids 13,31 at lap 6.00
+  13,   31 : rejected. changed_loss  2.837e-02   merged_size 160.  
+   7,   19 : skipped.
+Skip eval of uids 31,32 at lap 6.00
+Skip eval of uids 31,32 at lap 6.00
+Skip eval of uids 31,32 at lap 6.00
+Skip eval of uids 31,32 at lap 6.00
+Skip eval of uids 31,32 at lap 6.00
+Skip eval of uids 31,32 at lap 6.00
+  31,   32 : rejected. changed_loss  1.682e-02   merged_size 145.  
+Skip eval of uids 7,13 at lap 6.00
+Skip eval of uids 7,13 at lap 6.00
+Skip eval of uids 7,13 at lap 6.00
+Skip eval of uids 7,13 at lap 6.00
+Skip eval of uids 7,13 at lap 6.00
+Skip eval of uids 7,13 at lap 6.00
+   7,   13 : rejected. changed_loss  2.096e-02   merged_size 131.  
+Skip eval of uids 13,23 at lap 6.00
+Skip eval of uids 13,23 at lap 6.00
+Skip eval of uids 13,23 at lap 6.00
+Skip eval of uids 13,23 at lap 6.00
+Skip eval of uids 13,23 at lap 6.00
+Skip eval of uids 13,23 at lap 6.00
+  13,   23 : rejected. changed_loss  2.180e-02   merged_size 127.  
+Skip eval of uids 16,31 at lap 6.00
+Skip eval of uids 16,31 at lap 6.00
+Skip eval of uids 16,31 at lap 6.00
+Skip eval of uids 16,31 at lap 6.00
+Skip eval of uids 16,31 at lap 6.00
+Skip eval of uids 16,31 at lap 6.00
+  16,   31 : rejected. changed_loss  1.058e-02   merged_size 131.  
+Skip eval of uids 7,32 at lap 6.00
+Skip eval of uids 7,32 at lap 6.00
+Skip eval of uids 7,32 at lap 6.00
+Skip eval of uids 7,32 at lap 6.00
+Skip eval of uids 7,32 at lap 6.00
+Skip eval of uids 7,32 at lap 6.00
+   7,   32 : rejected. changed_loss  1.438e-02   merged_size 115.  
+Skip eval of uids 23,32 at lap 6.00
+Skip eval of uids 23,32 at lap 6.00
+Skip eval of uids 23,32 at lap 6.00
+Skip eval of uids 23,32 at lap 6.00
+Skip eval of uids 23,32 at lap 6.00
+Skip eval of uids 23,32 at lap 6.00
+  23,   32 : rejected. changed_loss  1.504e-02   merged_size 111.  
+Skip eval of uids 7,16 at lap 6.00
+Skip eval of uids 7,16 at lap 6.00
+Skip eval of uids 7,16 at lap 6.00
+Skip eval of uids 7,16 at lap 6.00
+Skip eval of uids 7,16 at lap 6.00
+Skip eval of uids 7,16 at lap 6.00
+   7,   16 : rejected. changed_loss  8.973e-03   merged_size 101.  
+Skip eval of uids 16,23 at lap 6.00
+Skip eval of uids 16,23 at lap 6.00
+Skip eval of uids 16,23 at lap 6.00
+Skip eval of uids 16,23 at lap 6.00
+Skip eval of uids 16,23 at lap 6.00
+Skip eval of uids 16,23 at lap 6.00
+  16,   23 : rejected. changed_loss  8.067e-03   merged_size 98.0  
+Skip eval of uids 23,79 at lap 6.00
+Skip eval of uids 23,79 at lap 6.00
+Skip eval of uids 23,79 at lap 6.00
+Skip eval of uids 23,79 at lap 6.00
+Skip eval of uids 23,79 at lap 6.00
+Skip eval of uids 23,79 at lap 6.00
+  23,   79 : rejected. changed_loss  1.633e-02   merged_size 98.7  
+Skip eval of uids 23,48 at lap 6.00
+Skip eval of uids 23,48 at lap 6.00
+Skip eval of uids 23,48 at lap 6.00
+Skip eval of uids 23,48 at lap 6.00
+Skip eval of uids 23,48 at lap 6.00
+Skip eval of uids 23,48 at lap 6.00
+  23,   48 : rejected. changed_loss  5.680e-03   merged_size 97.9  
+Skip eval of uids 13,16 at lap 6.00
+Skip eval of uids 13,16 at lap 6.00
+Skip eval of uids 13,16 at lap 6.00
+Skip eval of uids 13,16 at lap 6.00
+Skip eval of uids 13,16 at lap 6.00
+Skip eval of uids 13,16 at lap 6.00
+  13,   16 : rejected. changed_loss  2.038e-03   merged_size 35.1  
+Skip eval of uids 13,48 at lap 6.00
+Skip eval of uids 13,48 at lap 6.00
+Skip eval of uids 13,48 at lap 6.00
+Skip eval of uids 13,48 at lap 6.00
+Skip eval of uids 13,48 at lap 6.00
+Skip eval of uids 13,48 at lap 6.00
+  13,   48 : rejected. changed_loss  1.448e-03   merged_size 35.0  
+Skip eval of uids 16,32 at lap 6.00
+Skip eval of uids 16,32 at lap 6.00
+Skip eval of uids 16,32 at lap 6.00
+Skip eval of uids 16,32 at lap 6.00
+Skip eval of uids 16,32 at lap 6.00
+Skip eval of uids 16,32 at lap 6.00
+  16,   32 : rejected. changed_loss  1.808e-03   merged_size 19.9  
+Skip eval of uids 32,48 at lap 6.00
+Skip eval of uids 32,48 at lap 6.00
+Skip eval of uids 32,48 at lap 6.00
+Skip eval of uids 32,48 at lap 6.00
+Skip eval of uids 32,48 at lap 6.00
+Skip eval of uids 32,48 at lap 6.00
+  32,   48 : ACCEPTED. changed_loss -1.596e-04   merged_size 19.7  
+  48,   79 : skipped.
+  15,   48 : skipped.
+Skip eval of uids 20,79 at lap 6.00
+Skip eval of uids 20,79 at lap 6.00
+Skip eval of uids 20,79 at lap 6.00
+Skip eval of uids 20,79 at lap 6.00
+Skip eval of uids 20,79 at lap 6.00
+Skip eval of uids 20,79 at lap 6.00
+Skip eval of uids 20,79 at lap 6.00
+  20,   79 : ACCEPTED. changed_loss -3.289e-04   merged_size 3.87  
+  12,   79 : skipped.
+   5,   79 : skipped.
+  15,   20 : skipped.
+Skip eval of uids 12,15 at lap 6.00
+Skip eval of uids 12,15 at lap 6.00
+Skip eval of uids 12,15 at lap 6.00
+Skip eval of uids 12,15 at lap 6.00
+Skip eval of uids 12,15 at lap 6.00
+Skip eval of uids 12,15 at lap 6.00
+Skip eval of uids 12,15 at lap 6.00
+Skip eval of uids 12,15 at lap 6.00
+  12,   15 : ACCEPTED. changed_loss -4.655e-05   merged_size 2.06  
+   5,   15 : skipped.
+  10,   15 : skipped.
+  12,   20 : skipped.
+  10,   20 : skipped.
+   5,   20 : skipped.
+  10,   12 : skipped.
+   5,   12 : skipped.
+Skip eval of uids 5,10 at lap 6.00
+Skip eval of uids 5,10 at lap 6.00
+Skip eval of uids 5,10 at lap 6.00
+Skip eval of uids 5,10 at lap 6.00
+Skip eval of uids 5,10 at lap 6.00
+Skip eval of uids 5,10 at lap 6.00
+Skip eval of uids 5,10 at lap 6.00
+Skip eval of uids 5,10 at lap 6.00
+Skip eval of uids 5,10 at lap 6.00
+   5,   10 : ACCEPTED. changed_loss  0.000e+00   merged_size <.01  
+MERGE @ lap 6.00 : 10/39 accepted. Ndiff 1032.92. 38 skipped.
+PLANNING merges at lap 7.00. K=21
+   0/21 UIDs ineligible because on shortlist for births. 
+   197/210 pairs eligible. 13 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   1,   17 : pair_score 1.614e+03, size 782. 830.
+   4,   17 : pair_score 1.514e+03, size 682. 830.
+   1,    4 : pair_score 1.466e+03, size 782. 682.
+   0,   17 : pair_score 1.396e+03, size 565. 830.
+   0,    1 : pair_score 1.348e+03, size 565. 782.
+   0,    4 : pair_score 1.248e+03, size 565. 682.
+   6,   17 : pair_score 1.156e+03, size 325. 830.
+  14,   17 : pair_score 1.141e+03, size 310. 830.
+   1,    6 : pair_score 1.108e+03, size 782. 325.
+   1,   14 : pair_score 1.093e+03, size 782. 310.
+   4,    6 : pair_score 1.008e+03, size 682. 325.
+   4,   14 : pair_score 9.927e+02, size 682. 310.
+   0,    6 : pair_score 8.904e+02, size 565. 325.
+   0,   14 : pair_score 8.752e+02, size 565. 310.
+   6,   14 : pair_score 6.353e+02, size 325. 310.
+   2,   29 : pair_score 4.866e+02, size 221. 265.
+   8,   29 : pair_score 4.572e+02, size 191. 265.
+  19,   29 : pair_score 4.211e+02, size 155. 265.
+  29,   57 : pair_score 4.209e+02, size 265. 155.
+   2,    8 : pair_score 4.128e+02, size 221. 191.
+  29,   46 : pair_score 3.963e+02, size 265. 130.
+   2,   19 : pair_score 3.767e+02, size 221. 155.
+   2,   57 : pair_score 3.765e+02, size 221. 155.
+   2,   46 : pair_score 3.519e+02, size 221. 130.
+   8,   19 : pair_score 3.473e+02, size 191. 155.
+   8,   57 : pair_score 3.471e+02, size 191. 155.
+   8,   46 : pair_score 3.225e+02, size 191. 130.
+  19,   57 : pair_score 3.110e+02, size 155. 155.
+  19,   46 : pair_score 2.864e+02, size 155. 130.
+  46,   57 : pair_score 2.862e+02, size 130. 155.
+   7,   31 : pair_score 2.271e+02, size 98.8 128.
+  23,   31 : pair_score 2.233e+02, size 95.0 128.
+   7,   23 : pair_score 1.939e+02, size 98.8 95.0
+  31,   32 : pair_score 1.480e+02, size 128. 19.7
+  20,   31 : pair_score 1.321e+02, size 3.87 128.
+  12,   31 : pair_score 1.303e+02, size 2.06 128.
+   7,   32 : pair_score 1.187e+02, size 98.8 19.7
+  23,   32 : pair_score 1.148e+02, size 95.0 19.7
+   7,   20 : pair_score 1.028e+02, size 98.8 3.87
+   7,   12 : pair_score 1.010e+02, size 98.8 2.06
+  20,   23 : pair_score 9.891e+01, size 3.87 95.0
+  12,   23 : pair_score 9.709e+01, size 2.06 95.0
+  13,   32 : pair_score 5.195e+01, size 32.1 19.7
+  13,   20 : pair_score 3.603e+01, size 32.1 3.87
+  12,   13 : pair_score 3.421e+01, size 2.06 32.1
+   5,   13 : pair_score 3.215e+01, size <.01 32.1
+  20,   32 : pair_score 2.368e+01, size 3.87 19.7
+  12,   16 : pair_score 5.111e+00, size 2.06 3.04
+   5,   16 : pair_score 3.048e+00, size <.01 3.04
+EVALUATING merges at lap 7.00
+   1,   17 : rejected. changed_loss  3.688e-01   merged_size 1623  
+   4,   17 : rejected. changed_loss  3.480e-01   merged_size 1525  
+   1,    4 : rejected. changed_loss  1.093e-01   merged_size 1487  
+   0,   17 : rejected. changed_loss  9.086e-02   merged_size 1429  
+   0,    1 : rejected. changed_loss  3.158e-01   merged_size 1391  
+   0,    4 : rejected. changed_loss  2.956e-01   merged_size 1293  
+   6,   17 : rejected. changed_loss  2.157e-01   merged_size 1165  
+  14,   17 : rejected. changed_loss  2.107e-01   merged_size 1149  
+   1,    6 : rejected. changed_loss  2.115e-01   merged_size 1127  
+   1,   14 : rejected. changed_loss  2.024e-01   merged_size 1111  
+   4,    6 : rejected. changed_loss  1.882e-01   merged_size 1029  
+   4,   14 : rejected. changed_loss  1.877e-01   merged_size 1013  
+   0,    6 : rejected. changed_loss  1.766e-01   merged_size 933.  
+   0,   14 : rejected. changed_loss  1.697e-01   merged_size 916.  
+   6,   14 : rejected. changed_loss  1.367e-01   merged_size 653.  
+   2,   29 : rejected. changed_loss  8.442e-02   merged_size 463.  
+   8,   29 : rejected. changed_loss  7.435e-02   merged_size 436.  
+  19,   29 : rejected. changed_loss  7.658e-02   merged_size 389.  
+  29,   57 : rejected. changed_loss  6.536e-02   merged_size 402.  
+   2,    8 : ACCEPTED. changed_loss -6.769e-03   merged_size 413.  
+Skip eval of uids 29,46 at lap 7.00
+  29,   46 : rejected. changed_loss  6.191e-02   merged_size 372.  
+   2,   19 : skipped.
+   2,   57 : skipped.
+   2,   46 : skipped.
+   8,   19 : skipped.
+   8,   57 : skipped.
+   8,   46 : skipped.
+Skip eval of uids 19,57 at lap 7.00
+  19,   57 : rejected. changed_loss  4.200e-02   merged_size 304.  
+Skip eval of uids 19,46 at lap 7.00
+  19,   46 : rejected. changed_loss  4.015e-02   merged_size 275.  
+Skip eval of uids 46,57 at lap 7.00
+  46,   57 : ACCEPTED. changed_loss -5.835e-03   merged_size 288.  
+Skip eval of uids 7,31 at lap 7.00
+Skip eval of uids 7,31 at lap 7.00
+   7,   31 : rejected. changed_loss  2.198e-02   merged_size 222.  
+Skip eval of uids 23,31 at lap 7.00
+Skip eval of uids 23,31 at lap 7.00
+  23,   31 : rejected. changed_loss  4.517e-02   merged_size 215.  
+Skip eval of uids 7,23 at lap 7.00
+Skip eval of uids 7,23 at lap 7.00
+   7,   23 : rejected. changed_loss  3.644e-02   merged_size 178.  
+Skip eval of uids 31,32 at lap 7.00
+Skip eval of uids 31,32 at lap 7.00
+  31,   32 : rejected. changed_loss  1.270e-02   merged_size 137.  
+Skip eval of uids 20,31 at lap 7.00
+Skip eval of uids 20,31 at lap 7.00
+  20,   31 : ACCEPTED. changed_loss -5.488e-04   merged_size 130.  
+  12,   31 : skipped.
+Skip eval of uids 7,32 at lap 7.00
+Skip eval of uids 7,32 at lap 7.00
+Skip eval of uids 7,32 at lap 7.00
+   7,   32 : rejected. changed_loss  1.067e-02   merged_size 99.9  
+Skip eval of uids 23,32 at lap 7.00
+Skip eval of uids 23,32 at lap 7.00
+Skip eval of uids 23,32 at lap 7.00
+  23,   32 : rejected. changed_loss  1.019e-02   merged_size 93.8  
+   7,   20 : skipped.
+Skip eval of uids 7,12 at lap 7.00
+Skip eval of uids 7,12 at lap 7.00
+Skip eval of uids 7,12 at lap 7.00
+   7,   12 : ACCEPTED. changed_loss -8.050e-04   merged_size 92.5  
+  20,   23 : skipped.
+  12,   23 : skipped.
+Skip eval of uids 13,32 at lap 7.00
+Skip eval of uids 13,32 at lap 7.00
+Skip eval of uids 13,32 at lap 7.00
+Skip eval of uids 13,32 at lap 7.00
+  13,   32 : rejected. changed_loss  2.718e-03   merged_size 29.8  
+  13,   20 : skipped.
+  12,   13 : skipped.
+Skip eval of uids 5,13 at lap 7.00
+Skip eval of uids 5,13 at lap 7.00
+Skip eval of uids 5,13 at lap 7.00
+Skip eval of uids 5,13 at lap 7.00
+   5,   13 : rejected. changed_loss  1.124e-04   merged_size 22.1  
+  20,   32 : skipped.
+  12,   16 : skipped.
+Skip eval of uids 5,16 at lap 7.00
+Skip eval of uids 5,16 at lap 7.00
+Skip eval of uids 5,16 at lap 7.00
+Skip eval of uids 5,16 at lap 7.00
+   5,   16 : ACCEPTED. changed_loss  0.000e+00   merged_size 0.49  
+MERGE @ lap 7.00 : 5/35 accepted. Ndiff 323.06. 14 skipped.
+PLANNING merges at lap 8.00. K=16
+   0/16 UIDs ineligible because on shortlist for births. 
+   100/120 pairs eligible. 20 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   2,   17 : pair_score 1.244e+03, size 413. 830.
+   1,    2 : pair_score 1.206e+03, size 792. 413.
+  17,   46 : pair_score 1.119e+03, size 830. 288.
+   2,    4 : pair_score 1.108e+03, size 413. 694.
+   1,   46 : pair_score 1.081e+03, size 792. 288.
+  17,   29 : pair_score 1.074e+03, size 830. 243.
+   1,   29 : pair_score 1.036e+03, size 792. 243.
+   0,    2 : pair_score 1.011e+03, size 598. 413.
+   4,   46 : pair_score 9.830e+02, size 694. 288.
+  17,   19 : pair_score 9.768e+02, size 830. 145.
+  17,   20 : pair_score 9.614e+02, size 830. 130.
+   1,   19 : pair_score 9.386e+02, size 792. 145.
+   4,   29 : pair_score 9.383e+02, size 694. 243.
+   1,   20 : pair_score 9.232e+02, size 792. 130.
+   0,   46 : pair_score 8.865e+02, size 598. 288.
+   0,   29 : pair_score 8.418e+02, size 598. 243.
+   4,   19 : pair_score 8.406e+02, size 694. 145.
+   4,   20 : pair_score 8.253e+02, size 694. 130.
+   2,    6 : pair_score 7.477e+02, size 413. 334.
+   0,   19 : pair_score 7.441e+02, size 598. 145.
+   0,   20 : pair_score 7.288e+02, size 598. 130.
+   6,   46 : pair_score 6.229e+02, size 334. 288.
+   6,   29 : pair_score 5.782e+02, size 334. 243.
+   6,   19 : pair_score 4.805e+02, size 334. 145.
+   6,   20 : pair_score 4.652e+02, size 334. 130.
+   7,   14 : pair_score 4.110e+02, size 92.5 318.
+  14,   23 : pair_score 4.046e+02, size 318. 86.1
+  13,   14 : pair_score 3.406e+02, size 22.1 318.
+  14,   32 : pair_score 3.260e+02, size 318. 7.62
+   5,   14 : pair_score 3.189e+02, size 0.49 318.
+   7,   13 : pair_score 1.148e+02, size 92.5 22.1
+  13,   23 : pair_score 1.084e+02, size 22.1 86.1
+   5,    7 : pair_score 9.309e+01, size 0.49 92.5
+   5,   23 : pair_score 8.667e+01, size 0.49 86.1
+   5,   13 : pair_score 2.269e+01, size 0.49 22.1
+   5,   32 : pair_score 8.116e+00, size 0.49 7.62
+EVALUATING merges at lap 8.00
+   2,   17 : rejected. changed_loss  2.385e-01   merged_size 1244  
+   1,    2 : rejected. changed_loss  2.281e-01   merged_size 1214  
+  17,   46 : rejected. changed_loss  2.062e-01   merged_size 1124  
+   2,    4 : rejected. changed_loss  2.150e-01   merged_size 1119  
+   1,   46 : rejected. changed_loss  1.983e-01   merged_size 1095  
+  17,   29 : rejected. changed_loss  7.764e-02   merged_size 1055  
+   1,   29 : rejected. changed_loss  2.250e-01   merged_size 1026  
+   0,    2 : rejected. changed_loss  1.965e-01   merged_size 1034  
+   4,   46 : rejected. changed_loss  1.780e-01   merged_size 1000  
+  17,   19 : rejected. changed_loss  1.848e-01   merged_size 965.  
+  17,   20 : rejected. changed_loss  1.890e-01   merged_size 956.  
+   1,   19 : rejected. changed_loss  4.784e-02   merged_size 935.  
+   4,   29 : rejected. changed_loss  2.028e-01   merged_size 931.  
+   1,   20 : rejected. changed_loss  1.812e-01   merged_size 926.  
+   0,   46 : rejected. changed_loss  1.657e-01   merged_size 915.  
+   0,   29 : ACCEPTED. changed_loss -8.079e-03   merged_size 846.  
+Skip eval of uids 4,19 at lap 8.00
+   4,   19 : ACCEPTED. changed_loss -6.603e-03   merged_size 841.  
+   4,   20 : skipped.
+Skip eval of uids 2,6 at lap 8.00
+Skip eval of uids 2,6 at lap 8.00
+   2,    6 : rejected. changed_loss  4.936e-02   merged_size 757.  
+   0,   19 : skipped.
+   0,   20 : skipped.
+Skip eval of uids 6,46 at lap 8.00
+Skip eval of uids 6,46 at lap 8.00
+   6,   46 : rejected. changed_loss  1.325e-01   merged_size 638.  
+   6,   29 : skipped.
+   6,   19 : skipped.
+Skip eval of uids 6,20 at lap 8.00
+Skip eval of uids 6,20 at lap 8.00
+   6,   20 : rejected. changed_loss  1.043e-01   merged_size 469.  
+Skip eval of uids 7,14 at lap 8.00
+Skip eval of uids 7,14 at lap 8.00
+   7,   14 : ACCEPTED. changed_loss -5.347e-03   merged_size 411.  
+  14,   23 : skipped.
+  13,   14 : skipped.
+  14,   32 : skipped.
+   5,   14 : skipped.
+   7,   13 : skipped.
+Skip eval of uids 13,23 at lap 8.00
+Skip eval of uids 13,23 at lap 8.00
+Skip eval of uids 13,23 at lap 8.00
+  13,   23 : rejected. changed_loss  1.444e-02   merged_size 89.9  
+   5,    7 : skipped.
+Skip eval of uids 5,23 at lap 8.00
+Skip eval of uids 5,23 at lap 8.00
+Skip eval of uids 5,23 at lap 8.00
+   5,   23 : rejected. changed_loss  6.306e-05   merged_size 76.4  
+Skip eval of uids 5,13 at lap 8.00
+Skip eval of uids 5,13 at lap 8.00
+Skip eval of uids 5,13 at lap 8.00
+   5,   13 : ACCEPTED. changed_loss -2.769e-04   merged_size 13.4  
+   5,   32 : skipped.
+MERGE @ lap 8.00 : 4/24 accepted. Ndiff 443.50. 12 skipped.
+PLANNING merges at lap 9.00. K=12
+   0/12 UIDs ineligible because on shortlist for births. 
+   53/66 pairs eligible. 13 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   0,    4 : pair_score 1.688e+03, size 846. 841.
+   0,   17 : pair_score 1.678e+03, size 846. 830.
+   4,   17 : pair_score 1.672e+03, size 841. 830.
+   0,    1 : pair_score 1.648e+03, size 846. 801.
+   1,    4 : pair_score 1.642e+03, size 801. 841.
+   1,   17 : pair_score 1.632e+03, size 801. 830.
+   0,    7 : pair_score 1.258e+03, size 846. 411.
+   4,    7 : pair_score 1.252e+03, size 841. 411.
+   7,   17 : pair_score 1.242e+03, size 411. 830.
+   1,    7 : pair_score 1.212e+03, size 801. 411.
+   0,    6 : pair_score 1.191e+03, size 846. 344.
+   4,    6 : pair_score 1.186e+03, size 841. 344.
+   6,   17 : pair_score 1.176e+03, size 344. 830.
+   1,    6 : pair_score 1.146e+03, size 801. 344.
+   2,    7 : pair_score 8.240e+02, size 413. 411.
+   2,   46 : pair_score 7.068e+02, size 413. 293.
+   2,   20 : pair_score 5.382e+02, size 413. 125.
+   2,   23 : pair_score 4.894e+02, size 413. 76.4
+   2,    5 : pair_score 4.265e+02, size 413. 13.4
+   6,   23 : pair_score 4.210e+02, size 344. 76.4
+  20,   46 : pair_score 4.190e+02, size 125. 293.
+  23,   46 : pair_score 3.702e+02, size 76.4 293.
+   5,   46 : pair_score 3.073e+02, size 13.4 293.
+  32,   46 : pair_score 2.963e+02, size 2.52 293.
+  20,   23 : pair_score 2.016e+02, size 125. 76.4
+   5,   20 : pair_score 1.387e+02, size 13.4 125.
+  20,   32 : pair_score 1.277e+02, size 125. 2.52
+   5,   23 : pair_score 8.993e+01, size 13.4 76.4
+   5,   32 : pair_score 1.602e+01, size 13.4 2.52
+EVALUATING merges at lap 9.00
+   0,    4 : rejected. changed_loss  3.813e-01   merged_size 1689  
+   0,   17 : rejected. changed_loss  1.151e-01   merged_size 1679  
+   4,   17 : rejected. changed_loss  3.768e-01   merged_size 1672  
+   0,    1 : rejected. changed_loss  3.754e-01   merged_size 1656  
+   1,    4 : rejected. changed_loss  1.099e-01   merged_size 1649  
+   1,   17 : rejected. changed_loss  3.724e-01   merged_size 1639  
+   0,    7 : rejected. changed_loss  2.410e-01   merged_size 1259  
+   4,    7 : rejected. changed_loss  2.376e-01   merged_size 1252  
+   7,   17 : rejected. changed_loss  2.355e-01   merged_size 1242  
+   1,    7 : rejected. changed_loss  2.296e-01   merged_size 1219  
+   0,    6 : rejected. changed_loss  2.292e-01   merged_size 1203  
+   4,    6 : rejected. changed_loss  2.197e-01   merged_size 1195  
+   6,   17 : rejected. changed_loss  2.216e-01   merged_size 1185  
+   1,    6 : rejected. changed_loss  2.199e-01   merged_size 1163  
+   2,    7 : rejected. changed_loss  1.802e-01   merged_size 824.  
+   2,   46 : rejected. changed_loss  1.516e-01   merged_size 713.  
+   2,   20 : rejected. changed_loss  1.216e-01   merged_size 531.  
+   2,   23 : rejected. changed_loss  3.498e-02   merged_size 479.  
+   2,    5 : rejected. changed_loss  5.635e-02   merged_size 419.  
+   6,   23 : ACCEPTED. changed_loss -5.133e-03   merged_size 420.  
+Skip eval of uids 20,46 at lap 9.00
+  20,   46 : ACCEPTED. changed_loss -5.839e-03   merged_size 418.  
+  23,   46 : skipped.
+   5,   46 : skipped.
+  32,   46 : skipped.
+  20,   23 : skipped.
+   5,   20 : skipped.
+  20,   32 : skipped.
+   5,   23 : skipped.
+Skip eval of uids 5,32 at lap 9.00
+Skip eval of uids 5,32 at lap 9.00
+   5,   32 : ACCEPTED. changed_loss -9.792e-05   merged_size 7.23  
+MERGE @ lap 9.00 : 3/22 accepted. Ndiff 185.39. 7 skipped.
+PLANNING merges at lap 10.00. K=9
+   0/9 UIDs ineligible because on shortlist for births. 
+   21/36 pairs eligible. 15 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   0,    6 : pair_score 1.270e+03, size 848. 420.
+   0,   20 : pair_score 1.268e+03, size 848. 418.
+   4,    6 : pair_score 1.262e+03, size 841. 420.
+   4,   20 : pair_score 1.260e+03, size 841. 418.
+   6,   17 : pair_score 1.252e+03, size 420. 831.
+  17,   20 : pair_score 1.250e+03, size 831. 418.
+   1,    6 : pair_score 1.229e+03, size 808. 420.
+   1,   20 : pair_score 1.227e+03, size 808. 418.
+   0,    5 : pair_score 8.558e+02, size 848. 7.23
+   4,    5 : pair_score 8.482e+02, size 841. 7.23
+   6,   20 : pair_score 8.400e+02, size 420. 418.
+   5,   17 : pair_score 8.382e+02, size 7.23 831.
+   1,    5 : pair_score 8.154e+02, size 808. 7.23
+   2,    5 : pair_score 4.202e+02, size 413. 7.23
+EVALUATING merges at lap 10.00
+   0,    6 : rejected. changed_loss  2.463e-01   merged_size 1269  
+   0,   20 : rejected. changed_loss  2.392e-01   merged_size 1267  
+   4,    6 : rejected. changed_loss  2.365e-01   merged_size 1262  
+   4,   20 : rejected. changed_loss  2.334e-01   merged_size 1260  
+   6,   17 : rejected. changed_loss  2.384e-01   merged_size 1251  
+  17,   20 : rejected. changed_loss  2.389e-01   merged_size 1250  
+   1,    6 : rejected. changed_loss  2.374e-01   merged_size 1234  
+   1,   20 : rejected. changed_loss  2.331e-01   merged_size 1232  
+   0,    5 : rejected. changed_loss  7.149e-02   merged_size 850.  
+   4,    5 : rejected. changed_loss  4.312e-03   merged_size 842.  
+   6,   20 : rejected. changed_loss  1.833e-01   merged_size 839.  
+   5,   17 : rejected. changed_loss  7.112e-02   merged_size 832.  
+   1,    5 : ACCEPTED. changed_loss -1.041e-03   merged_size 815.  
+   2,    5 : skipped.
+MERGE @ lap 10.00 : 1/13 accepted. Ndiff 1.72. 1 skipped.
+PLANNING merges at lap 11.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   4/28 pairs eligible. 24 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   2,    6 : pair_score 8.340e+02, size 412. 420.
+   6,    7 : pair_score 8.320e+02, size 420. 411.
+   2,   20 : pair_score 8.320e+02, size 412. 418.
+   7,   20 : pair_score 8.300e+02, size 411. 418.
+EVALUATING merges at lap 11.00
+   2,    6 : rejected. changed_loss  5.378e-02   merged_size 834.  
+   6,    7 : rejected. changed_loss  1.826e-01   merged_size 831.  
+   2,   20 : rejected. changed_loss  1.822e-01   merged_size 832.  
+   7,   20 : rejected. changed_loss  5.304e-02   merged_size 830.  
+MERGE @ lap 11.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.
+PLANNING merges at lap 12.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   0/28 pairs eligible. 28 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+MERGE @ lap 12.00: No promising candidates, so no attempts.
+PLANNING merges at lap 13.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   4/28 pairs eligible. 24 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   0,    2 : pair_score 1.262e+03, size 848. 413.
+   2,    4 : pair_score 1.254e+03, size 413. 841.
+   2,   17 : pair_score 1.244e+03, size 413. 831.
+   1,    2 : pair_score 1.228e+03, size 814. 413.
+EVALUATING merges at lap 13.00
+   0,    2 : rejected. changed_loss  2.396e-01   merged_size 1262  
+   2,    4 : rejected. changed_loss  2.385e-01   merged_size 1254  
+   2,   17 : rejected. changed_loss  2.386e-01   merged_size 1244  
+   1,    2 : rejected. changed_loss  2.303e-01   merged_size 1227  
+MERGE @ lap 13.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.
+PLANNING merges at lap 14.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   11/28 pairs eligible. 17 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   0,    4 : pair_score 1.690e+03, size 848. 841.
+   0,   17 : pair_score 1.680e+03, size 848. 831.
+   4,   17 : pair_score 1.672e+03, size 841. 831.
+   0,    1 : pair_score 1.664e+03, size 848. 814.
+   1,    4 : pair_score 1.656e+03, size 814. 841.
+   1,   17 : pair_score 1.646e+03, size 814. 831.
+   0,    7 : pair_score 1.260e+03, size 848. 411.
+   4,    7 : pair_score 1.252e+03, size 841. 411.
+   7,   17 : pair_score 1.242e+03, size 411. 831.
+   1,    7 : pair_score 1.226e+03, size 814. 411.
+   2,    7 : pair_score 8.240e+02, size 413. 411.
+EVALUATING merges at lap 14.00
+   0,    4 : rejected. changed_loss  3.813e-01   merged_size 1690  
+   0,   17 : rejected. changed_loss  1.151e-01   merged_size 1679  
+   4,   17 : rejected. changed_loss  3.768e-01   merged_size 1672  
+   0,    1 : rejected. changed_loss  3.769e-01   merged_size 1663  
+   1,    4 : rejected. changed_loss  1.103e-01   merged_size 1655  
+   1,   17 : rejected. changed_loss  3.738e-01   merged_size 1645  
+   0,    7 : rejected. changed_loss  2.410e-01   merged_size 1259  
+   4,    7 : rejected. changed_loss  2.376e-01   merged_size 1252  
+   7,   17 : rejected. changed_loss  2.357e-01   merged_size 1242  
+   1,    7 : rejected. changed_loss  2.306e-01   merged_size 1225  
+   2,    7 : rejected. changed_loss  1.803e-01   merged_size 824.  
+MERGE @ lap 14.00 : 0/11 accepted. Ndiff 0.00. 0 skipped.
+PLANNING merges at lap 15.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   9/28 pairs eligible. 19 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   0,    6 : pair_score 1.270e+03, size 848. 420.
+   0,   20 : pair_score 1.268e+03, size 848. 418.
+   4,    6 : pair_score 1.262e+03, size 841. 420.
+   4,   20 : pair_score 1.260e+03, size 841. 418.
+   6,   17 : pair_score 1.252e+03, size 420. 831.
+  17,   20 : pair_score 1.250e+03, size 831. 418.
+   1,    6 : pair_score 1.236e+03, size 814. 420.
+   1,   20 : pair_score 1.234e+03, size 814. 418.
+   6,   20 : pair_score 8.400e+02, size 420. 418.
+EVALUATING merges at lap 15.00
+   0,    6 : rejected. changed_loss  2.463e-01   merged_size 1269  
+   0,   20 : rejected. changed_loss  2.392e-01   merged_size 1267  
+   4,    6 : rejected. changed_loss  2.365e-01   merged_size 1262  
+   4,   20 : rejected. changed_loss  2.334e-01   merged_size 1260  
+   6,   17 : rejected. changed_loss  2.384e-01   merged_size 1251  
+  17,   20 : rejected. changed_loss  2.389e-01   merged_size 1250  
+   1,    6 : rejected. changed_loss  2.377e-01   merged_size 1235  
+   1,   20 : rejected. changed_loss  2.333e-01   merged_size 1233  
+   6,   20 : rejected. changed_loss  1.833e-01   merged_size 839.  
+MERGE @ lap 15.00 : 0/9 accepted. Ndiff 0.00. 0 skipped.
+PLANNING merges at lap 16.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   4/28 pairs eligible. 24 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   2,    6 : pair_score 8.340e+02, size 413. 420.
+   2,   20 : pair_score 8.320e+02, size 413. 418.
+   6,    7 : pair_score 8.320e+02, size 420. 411.
+   7,   20 : pair_score 8.300e+02, size 411. 418.
+EVALUATING merges at lap 16.00
+   2,    6 : rejected. changed_loss  5.378e-02   merged_size 834.  
+   2,   20 : rejected. changed_loss  1.822e-01   merged_size 832.  
+   6,    7 : rejected. changed_loss  1.826e-01   merged_size 831.  
+   7,   20 : rejected. changed_loss  5.304e-02   merged_size 830.  
+MERGE @ lap 16.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.
+PLANNING merges at lap 17.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   0/28 pairs eligible. 28 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+MERGE @ lap 17.00: No promising candidates, so no attempts.
+PLANNING merges at lap 18.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   4/28 pairs eligible. 24 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   0,    2 : pair_score 1.262e+03, size 848. 413.
+   2,    4 : pair_score 1.254e+03, size 413. 841.
+   2,   17 : pair_score 1.244e+03, size 413. 831.
+   1,    2 : pair_score 1.228e+03, size 814. 413.
+EVALUATING merges at lap 18.00
+   0,    2 : rejected. changed_loss  2.396e-01   merged_size 1262  
+   2,    4 : rejected. changed_loss  2.385e-01   merged_size 1254  
+   2,   17 : rejected. changed_loss  2.386e-01   merged_size 1244  
+   1,    2 : rejected. changed_loss  2.303e-01   merged_size 1227  
+MERGE @ lap 18.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.
+PLANNING merges at lap 19.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   11/28 pairs eligible. 17 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   0,    4 : pair_score 1.690e+03, size 848. 841.
+   0,   17 : pair_score 1.680e+03, size 848. 831.
+   4,   17 : pair_score 1.672e+03, size 841. 831.
+   0,    1 : pair_score 1.664e+03, size 848. 814.
+   1,    4 : pair_score 1.656e+03, size 814. 841.
+   1,   17 : pair_score 1.646e+03, size 814. 831.
+   0,    7 : pair_score 1.260e+03, size 848. 411.
+   4,    7 : pair_score 1.252e+03, size 841. 411.
+   7,   17 : pair_score 1.242e+03, size 411. 831.
+   1,    7 : pair_score 1.226e+03, size 814. 411.
+   2,    7 : pair_score 8.240e+02, size 413. 411.
+EVALUATING merges at lap 19.00
+   0,    4 : rejected. changed_loss  3.813e-01   merged_size 1690  
+   0,   17 : rejected. changed_loss  1.151e-01   merged_size 1679  
+   4,   17 : rejected. changed_loss  3.768e-01   merged_size 1672  
+   0,    1 : rejected. changed_loss  3.769e-01   merged_size 1663  
+   1,    4 : rejected. changed_loss  1.103e-01   merged_size 1655  
+   1,   17 : rejected. changed_loss  3.738e-01   merged_size 1645  
+   0,    7 : rejected. changed_loss  2.410e-01   merged_size 1259  
+   4,    7 : rejected. changed_loss  2.376e-01   merged_size 1252  
+   7,   17 : rejected. changed_loss  2.357e-01   merged_size 1242  
+   1,    7 : rejected. changed_loss  2.306e-01   merged_size 1225  
+   2,    7 : rejected. changed_loss  1.803e-01   merged_size 824.  
+MERGE @ lap 19.00 : 0/11 accepted. Ndiff 0.00. 0 skipped.
+PLANNING merges at lap 20.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   9/28 pairs eligible. 19 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   0,    6 : pair_score 1.270e+03, size 848. 420.
+   0,   20 : pair_score 1.268e+03, size 848. 418.
+   4,    6 : pair_score 1.262e+03, size 841. 420.
+   4,   20 : pair_score 1.260e+03, size 841. 418.
+   6,   17 : pair_score 1.252e+03, size 420. 831.
+  17,   20 : pair_score 1.250e+03, size 831. 418.
+   1,    6 : pair_score 1.236e+03, size 814. 420.
+   1,   20 : pair_score 1.234e+03, size 814. 418.
+   6,   20 : pair_score 8.400e+02, size 420. 418.
+EVALUATING merges at lap 20.00
+   0,    6 : rejected. changed_loss  2.463e-01   merged_size 1269  
+   0,   20 : rejected. changed_loss  2.392e-01   merged_size 1267  
+   4,    6 : rejected. changed_loss  2.365e-01   merged_size 1262  
+   4,   20 : rejected. changed_loss  2.334e-01   merged_size 1260  
+   6,   17 : rejected. changed_loss  2.384e-01   merged_size 1251  
+  17,   20 : rejected. changed_loss  2.389e-01   merged_size 1250  
+   1,    6 : rejected. changed_loss  2.377e-01   merged_size 1235  
+   1,   20 : rejected. changed_loss  2.333e-01   merged_size 1233  
+   6,   20 : rejected. changed_loss  1.833e-01   merged_size 839.  
+MERGE @ lap 20.00 : 0/9 accepted. Ndiff 0.00. 0 skipped.
+PLANNING merges at lap 21.00. K=8
+   0/8 UIDs ineligible because on shortlist for births. 
+   4/28 pairs eligible. 24 disqualified by past failures.
+   Prioritizing elible pairs via ranking procedure: total_size
+Chosen uid pairs:
+   2,    6 : pair_score 8.340e+02, size 413. 420.
+   2,   20 : pair_score 8.320e+02, size 413. 418.
+   6,    7 : pair_score 8.320e+02, size 420. 411.
+   7,   20 : pair_score 8.300e+02, size 411. 418.
+EVALUATING merges at lap 21.00
+   2,    6 : rejected. changed_loss  5.378e-02   merged_size 834.  
+   2,   20 : rejected. changed_loss  1.822e-01   merged_size 832.  
+   6,    7 : rejected. changed_loss  1.826e-01   merged_size 831.  
+   7,   20 : rejected. changed_loss  5.304e-02   merged_size 830.  
+MERGE @ lap 21.00 : 0/4 accepted. Ndiff 0.00. 0 skipped.

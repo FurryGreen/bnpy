@@ -1,0 +1,81 @@
+STATUS uid     2  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b   101.113 N_ttl   101.113 ELIGIBLE 
+Creating proposal for targetUID 2 at lap 2.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 101.11 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 240 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -3.159e+02
+   22.37   22.70   22.50   26.55
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     93   94   95   96
+   26.5 22.7 22.4 22.3
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0200  after 0.0004.
+ pi[new comps]: 0.0049 0.0049 0.0049 0.0049
+     93   94   95   96
+   29.1 21.7 25.7 24.5
+   27.0 21.5 27.1 25.3
+   26.1 21.8 27.3 25.6
+   25.7 22.3 27.2 25.7
+   51.5 22.3 27.2 m 93
+   51.5 49.6 m 94     
+   101. m 93          
+   101.               
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid     2  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b   101.594 N_ttl   101.594 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     2  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   100.410 N_ttl   100.410 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     2  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b    97.503 N_ttl    97.503 BUSY MERGE PROPOSAL
+STATUS uid     2  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b    92.445 N_ttl    92.445 BUSY MERGE PROPOSAL
+STATUS uid     2  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   220.281 N_ttl   220.281 BUSY MERGE PROPOSAL
+STATUS uid     2  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     2  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     2  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   412.988 N_ttl   412.988 BUSY MERGE PROPOSAL
+STATUS uid     2  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     2  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.76 > 0.01
+ prevBatchSize    101.11 
+ curBatchSize    413.00
+Creating proposal for targetUID 2 at lap 12.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 413.00 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 413 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.389e+03
+   98.00   77.00  158.00   80.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+    237  238  239  240
+   158. 97.9 79.9 76.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0825  after 0.0016.
+ pi[new comps]: 0.0202 0.0202 0.0202 0.0202
+    237  238  239  240
+   148. 93.7 90.7 79.9
+   137. 90.0 99.8 85.7
+   129. 88.4 104. 90.6
+   124. 88.4 105. 94.3
+   120. 89.2 106. 96.8
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Eval     targetUID 2 at lap 12.000 lapCeil 12 | REJECT change_loss  1.829e-02
+   gainL  1.829e-02
+    curL -4.788e-02
+   propL -2.959e-02
+   gain_  Lalloc -5.832e-02
+   gain_   Ldata  1.533e-02
+   gain_Lentropy  2.471e-02
+   Rejected. Remain at loss -4.788e-02
+
+STATUS uid     2  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     2  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     2  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     2  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     2  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     2  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     2  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     2  lap  20.000 lapCeil    20 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     2  lap  21.000 lapCeil    21 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL

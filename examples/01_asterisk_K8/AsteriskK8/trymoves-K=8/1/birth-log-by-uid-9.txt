@@ -1,0 +1,74 @@
+STATUS uid     9  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b   195.128 N_ttl   195.128 ELIGIBLE 
+Creating proposal for targetUID 9 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 195.13 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 456 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -5.207e+02
+   12.89   16.31  135.85   14.56
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     56   57   58   59
+   135. 16.3 14.5 12.8
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0555  after 0.0011.
+ pi[new comps]: 0.0136 0.0136 0.0136 0.0136
+     56   57   58   59
+   133. 19.9 13.8 27.7
+   111. 25.7 15.1 42.3
+   93.2 33.0 18.4 50.3
+   79.6 39.6 22.7 53.0
+   79.6 92.6 22.7 m 57
+   80.9 80.7 33.4     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Eval     targetUID 9 at lap 3.000 lapCeil 3 | REJECT change_loss  9.628e-03
+   gainL  9.628e-03
+    curL  1.386e-02
+   propL  2.348e-02
+   gain_  Lalloc -2.302e-02
+   gain_   Ldata  3.155e-03
+   gain_Lentropy  1.023e-02
+   Rejected. Remain at loss 1.386e-02
+
+STATUS uid     9  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   180.469 N_ttl   180.469 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.08 > 0.01
+ prevBatchSize    195.13 
+ curBatchSize    180.47
+Creating proposal for targetUID 9 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 180.47 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 460 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -5.795e+02
+   68.08   23.75   51.52   21.13
+Bregman k-means DONE. Delivered 4 non-empty clusters
+    116  117  118  119
+   68.0 51.5 23.7 21.1
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0389  after 0.0008.
+ pi[new comps]: 0.0095 0.0095 0.0095 0.0095
+    116  117  118  119
+   58.1 53.1 35.1 33.9
+   54.2 52.6 36.6 36.9
+   51.2 51.7 38.4 39.0
+   49.3 50.7 39.8 40.4
+   49.3 50.7 80.3 m118
+   56.8 51.6 71.9     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Eval     targetUID 9 at lap 4.000 lapCeil 4 | REJECT change_loss  9.969e-03
+   gainL  9.969e-03
+    curL  1.057e-02
+   propL  2.054e-02
+   gain_  Lalloc -2.254e-02
+   gain_   Ldata  2.610e-03
+   gain_Lentropy  9.958e-03
+   Rejected. Remain at loss 1.057e-02
+
+STATUS uid     9  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   167.224 N_ttl   167.224 BUSY MERGE PROPOSAL
+STATUS uid     9  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   154.310 N_ttl   154.310 BUSY MERGE PROPOSAL
+STATUS uid     9  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   141.485 N_ttl   141.485 BUSY MERGE PROPOSAL

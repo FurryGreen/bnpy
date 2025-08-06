@@ -1,0 +1,4 @@
+STATUS uid    24  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b    11.127 N_ttl    11.127 ELIGIBLE 
+STATUS uid    24  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b     1.908 N_ttl     1.908 TOO SMALL 1.91 < 2.00
+STATUS uid    24  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b     0.214 N_ttl     0.214 TOO SMALL 0.21 < 2.00
+STATUS uid    24  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL

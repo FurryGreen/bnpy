@@ -142,7 +142,7 @@ class MemoVBMovesAlg(LearnAlg):
             # Birth moves!
             if self.hasMove('birth') and hasattr(SS, 'propXSS'):
                 hmodel, SS, loss, MoveLog, MoveRecordsByUID = \
-                    self.runMoves_Birth(
+                    self.runMoves_Birth( ### here
                         hmodel, SS, loss, MovePlans,
                         MoveLog=MoveLog,
                         MoveRecordsByUID=MoveRecordsByUID,

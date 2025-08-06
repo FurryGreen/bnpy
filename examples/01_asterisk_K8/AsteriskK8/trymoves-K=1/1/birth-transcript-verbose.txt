@@ -1,0 +1,1131 @@
+BIRTH @ lap 1.00: Disabled. Waiting for lap >= 2 (--b_startLap).
+PLANNING birth at lap 2.000 batch 0
+PLAN at  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0 
+STATUS uid     0  lap   2.000 lapCeil     2 batchPos   0/1 batchID   0  N_b  5000.000 N_ttl  5000.000 ELIGIBLE 
+0/1 UIDs retained from preexisting proposals.
+0/1 UIDs too busy with other moves (merge/delete).
+0/1 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+0/1 UIDs disqualified for past failures.
+1/1 UIDs eligible for new proposal
+   uids    0
+cnt_ttl 5000
+  cnt_b 5000
+  nFail <.01
+1/1 UIDs chosen for new proposals (rankby: cnt_b)
+   uids    0
+cnt_ttl 5000
+  cnt_b 5000
+   fail <.01
+
+CREATING birth proposals at lap 2.00 batch 0
+Creating proposal for targetUID 0 at lap 2.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 5000.00 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 5000 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore 2.222e+04
+ 1344.00  902.00 1287.00 1467.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+      1    2    3    4
+   1467 1344 1287 902.
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.9998  after 0.0200.
+ pi[new comps]: 0.2450 0.2450 0.2450 0.2450
+      1    2    3    4
+   1482 1309 1268 939.
+   1505 1287 1269 937.
+   1554 1275 1271 898.
+   1609 1270 1271 848.
+   1630 1267 1272 830.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+EVALUATING birth proposals at lap 2.00
+Eval     targetUID 0 at lap 2.000 lapCeil 2 | ACCEPT change_loss -3.657e-01 Knew    4
+   gainL -3.657e-01
+    curL  1.106e+00
+   propL  7.399e-01
+   gain_  Lalloc -6.817e-01
+   gain_   Ldata  1.032e+00
+   gain_Lentropy  1.544e-02
+   Accepted. Jump up to loss  7.399e-01 
+    Mass transfered to new comps: 5000.00
+    Remaining mass at targetUID 0: 0.00
+
+BIRTH @ lap 2.00 : Added 4 states. 1/1 succeeded. 0/1 failed eval phase. 0/1 failed build phase.
+PLANNING birth at lap 3.000 batch 0
+PLAN at  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0 
+STATUS uid     1  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b  1635.005 N_ttl  1635.005 ELIGIBLE 
+STATUS uid     3  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b  1272.867 N_ttl  1272.867 ELIGIBLE 
+STATUS uid     2  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b  1262.790 N_ttl  1262.790 ELIGIBLE 
+STATUS uid     4  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b   829.338 N_ttl   829.338 ELIGIBLE 
+STATUS uid     0  lap   3.000 lapCeil     3 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+0/5 UIDs retained from preexisting proposals.
+0/5 UIDs too busy with other moves (merge/delete).
+1/5 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+   uids    0
+count_b <.01
+0/5 UIDs disqualified for past failures.
+4/5 UIDs eligible for new proposal
+   uids    1    3    2    4
+cnt_ttl 1635 1272 1262 829.
+  cnt_b 1635 1272 1262 829.
+  nFail <.01 <.01 <.01 <.01
+4/4 UIDs chosen for new proposals (rankby: cnt_b)
+   uids    1    3    2    4
+cnt_ttl 1635 1272 1262 829.
+  cnt_b 1635 1272 1262 829.
+   fail <.01 <.01 <.01 <.01
+
+CREATING birth proposals at lap 3.00 batch 0
+Creating proposal for targetUID 1 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 1635.01 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 1643 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -3.504e+03
+  268.00  409.06  807.00  148.19
+Bregman k-means DONE. Delivered 4 non-empty clusters
+      5    6    7    8
+   806. 409. 267. 148.
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.3261  after 0.0065.
+ pi[new comps]: 0.0799 0.0799 0.0799 0.0799
+      5    6    7    8
+   814. 405. 260. 153.
+   813. 405. 267. 148.
+   812. 405. 274. 141.
+   812. 405. 280. 136.
+   812. 405. 284. 132.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Creating proposal for targetUID 3 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 1272.87 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 1273 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -3.831e+03
+  417.00  172.21  256.90  412.44
+Bregman k-means DONE. Delivered 4 non-empty clusters
+      9   10   11   12
+   416. 412. 256. 172.
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.2544  after 0.0051.
+ pi[new comps]: 0.0623 0.0623 0.0623 0.0623
+      9   10   11   12
+   420. 355. 284. 211.
+   420. 283. 289. 279.
+   420. 339. 217. 294.
+   420. 365. 167. 318.
+   420. 380. 128. 342.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Creating proposal for targetUID 2 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 1262.79 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 1271 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -3.082e+03
+  147.55  138.63  609.47  355.12
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     13   14   15   16
+   609. 355. 147. 138.
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.2534  after 0.0051.
+ pi[new comps]: 0.0621 0.0621 0.0621 0.0621
+     13   14   15   16
+   591. 373. 116. 180.
+   560. 378. 92.2 231.
+   525. 379. 78.1 280.
+   491. 378. 70.7 321.
+   462. 378. 68.3 352.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Creating proposal for targetUID 4 at lap 3.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 829.34 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 831 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -2.979e+03
+  176.92  143.97  387.47  120.97
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     17   18   19   20
+   387. 176. 143. 120.
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.1659  after 0.0033.
+ pi[new comps]: 0.0406 0.0406 0.0406 0.0406
+     17   18   19   20
+   333. 186. 177. 131.
+   285. 196. 202. 144.
+   253. 198. 217. 158.
+   235. 199. 223. 170.
+   224. 199. 224. 180.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+EVALUATING birth proposals at lap 3.00
+Eval     targetUID 1 at lap 3.000 lapCeil 3 | ACCEPT change_loss -2.928e-01 Knew    4
+   gainL -2.928e-01
+    curL  7.382e-01
+   propL  4.454e-01
+   gain_  Lalloc -1.988e-01
+   gain_   Ldata  4.734e-01
+   gain_Lentropy  1.827e-02
+   Accepted. Jump up to loss  4.454e-01 
+    Mass transfered to new comps: 1635.01
+    Remaining mass at targetUID 1: -0.00
+
+Eval     targetUID 3 at lap 3.000 lapCeil 3 | ACCEPT change_loss -1.990e-01 Knew    4
+   gainL -1.990e-01
+    curL  4.454e-01
+   propL  2.464e-01
+   gain_  Lalloc -1.692e-01
+   gain_   Ldata  3.157e-01
+   gain_Lentropy  5.256e-02
+   Accepted. Jump up to loss  2.464e-01 
+    Mass transfered to new comps: 1272.87
+    Remaining mass at targetUID 3: 0.00
+
+Eval     targetUID 2 at lap 3.000 lapCeil 3 | ACCEPT change_loss -2.142e-01 Knew    4
+   gainL -2.142e-01
+    curL  2.464e-01
+   propL  3.211e-02
+   gain_  Lalloc -1.592e-01
+   gain_   Ldata  3.365e-01
+   gain_Lentropy  3.696e-02
+   Accepted. Jump up to loss  3.211e-02 
+    Mass transfered to new comps: 1262.79
+    Remaining mass at targetUID 2: -0.00
+
+Eval     targetUID 4 at lap 3.000 lapCeil 3 | REJECT change_loss  2.321e-02
+   gainL  2.321e-02
+    curL  3.211e-02
+   propL  5.533e-02
+   gain_  Lalloc -1.167e-01
+   gain_   Ldata  3.823e-02
+   gain_Lentropy  5.523e-02
+   Rejected. Remain at loss 3.211e-02
+
+BIRTH @ lap 3.00 : Added 12 states. 3/4 succeeded. 1/4 failed eval phase. 0/4 failed build phase.
+PLANNING birth at lap 4.000 batch 0
+PLAN at  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0 
+STATUS uid     4  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   830.985 N_ttl   830.985 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     5  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   813.722 N_ttl   813.722 ELIGIBLE 
+STATUS uid    13  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   468.464 N_ttl   468.464 ELIGIBLE 
+STATUS uid     9  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   420.997 N_ttl   420.997 ELIGIBLE 
+STATUS uid     6  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   411.529 N_ttl   411.529 ELIGIBLE 
+STATUS uid    10  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   434.186 N_ttl   434.186 ELIGIBLE 
+STATUS uid    14  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   409.587 N_ttl   409.587 ELIGIBLE 
+STATUS uid    16  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   367.878 N_ttl   367.878 ELIGIBLE 
+STATUS uid    12  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   358.271 N_ttl   358.271 ELIGIBLE 
+STATUS uid     7  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b   328.264 N_ttl   328.264 ELIGIBLE 
+STATUS uid     8  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b    84.156 N_ttl    84.156 ELIGIBLE 
+STATUS uid    11  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b    48.418 N_ttl    48.418 ELIGIBLE 
+STATUS uid    15  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b    23.543 N_ttl    23.543 ELIGIBLE 
+STATUS uid     3  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+STATUS uid     0  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+STATUS uid     2  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+STATUS uid     1  lap   4.000 lapCeil     4 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 TOO SMALL 0.00 < 2.00
+0/17 UIDs retained from preexisting proposals.
+0/17 UIDs too busy with other moves (merge/delete).
+4/17 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+   uids    3    0    2    1
+count_b <.01 <.01 <.01 <.01
+1/17 UIDs disqualified for past failures.
+   4
+12/17 UIDs eligible for new proposal
+   uids    5   13    9    6   10   14   16   12    7    8   11   15
+cnt_ttl 813. 468. 420. 411. 434. 409. 367. 358. 328. 84.1 48.4 23.5
+  cnt_b 813. 468. 420. 411. 434. 409. 367. 358. 328. 84.1 48.4 23.5
+  nFail <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01
+12/12 UIDs chosen for new proposals (rankby: cnt_b)
+   uids    5   13   10    9    6   14   16   12    7    8   11   15
+cnt_ttl 813. 468. 434. 420. 411. 409. 367. 358. 328. 84.1 48.4 23.5
+  cnt_b 813. 468. 434. 420. 411. 409. 367. 358. 328. 84.1 48.4 23.5
+   fail <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01 <.01
+
+CREATING birth proposals at lap 4.00 batch 0
+Creating proposal for targetUID 5 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 813.72 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 815 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -2.851e+03
+  202.00   74.00  353.00  184.72
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     21   22   23   24
+   352. 201. 184. 73.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.1626  after 0.0033.
+ pi[new comps]: 0.0398 0.0398 0.0398 0.0398
+     21   22   23   24
+   314. 194. 209. 95.1
+   280. 188. 227. 116.
+   256. 184. 237. 135.
+   240. 182. 239. 151.
+   230. 183. 237. 162.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Creating proposal for targetUID 13 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 468.46 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 689 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.705e+03
+  159.40   52.85   73.95  174.73
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     25   26   27   28
+   174. 159. 73.9 52.8
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0927  after 0.0019.
+ pi[new comps]: 0.0227 0.0227 0.0227 0.0227
+     25   26   27   28
+   159. 150. 86.0 72.4
+   145. 142. 96.4 84.1
+   135. 133. 104. 95.0
+   128. 128. 109. 102.
+   128. 231. 109. m 26
+   143. 209. 115.     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Creating proposal for targetUID 10 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 434.19 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 738 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.490e+03
+   73.76   98.72  250.71    7.30
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     29   30   31   32
+   250. 98.7 73.7 7.30
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0761  after 0.0015.
+ pi[new comps]: 0.0187 0.0187 0.0187 0.0187
+     29   30   31   32
+   225. 84.1 89.7 34.7
+   192. 76.5 94.5 70.9
+   164. 78.8 99.3 91.6
+   144. 84.6 103. 101.
+   144. 84.6 204. m 31
+   157. 109. 166.     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Creating proposal for targetUID 9 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 421.00 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 421 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.463e+03
+   50.00   68.00  188.00  115.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     33   34   35   36
+   187. 114. 67.9 49.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0843  after 0.0017.
+ pi[new comps]: 0.0206 0.0206 0.0206 0.0206
+     33   34   35   36
+   184. 108. 66.0 62.1
+   172. 112. 65.7 70.7
+   159. 115. 67.2 78.1
+   149. 117. 70.4 84.1
+   149. 117. 154. m 35
+   142. 131. 147.     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Creating proposal for targetUID 6 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 411.53 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 413 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.377e+03
+   32.92  163.55  123.85   91.21
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     37   38   39   40
+   163. 123. 91.2 32.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0812  after 0.0016.
+ pi[new comps]: 0.0199 0.0199 0.0199 0.0199
+     37   38   39   40
+   132. 110. 98.4 70.1
+   119. 107. 101. 84.1
+   112. 105. 102. 90.8
+   109. 104. 102. 94.8
+   107. 104. 102. 97.4
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Creating proposal for targetUID 14 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 409.59 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 419 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.471e+03
+  112.71  174.00   62.97   59.91
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     41   42   43   44
+   173. 112. 62.9 59.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0757  after 0.0015.
+ pi[new comps]: 0.0186 0.0186 0.0186 0.0186
+     41   42   43   44
+   172. 105. 59.9 71.5
+   163. 108. 60.2 77.4
+   153. 112. 62.2 81.6
+   144. 114. 65.3 84.9
+   137. 115. 68.9 87.6
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Creating proposal for targetUID 16 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 367.88 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 590 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.348e+03
+  110.95   98.04   17.16  135.19
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     45   46   47   48
+   135. 110. 98.0 17.1
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0705  after 0.0014.
+ pi[new comps]: 0.0173 0.0173 0.0173 0.0173
+     45   46   47   48
+   137. 102. 82.4 45.9
+   129. 97.3 74.7 66.4
+   120. 95.5 74.9 76.5
+   113. 94.8 77.7 82.0
+   113. 94.8 159. m 47
+   113. 254. m 46     
+   138. 229.          
+Proposal build phase DONE. Created 2 candidate clusters.
+
+Creating proposal for targetUID 12 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 358.27 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 800 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.171e+03
+  175.84   95.19   69.11   15.70
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     49   50   51   52
+   175. 95.1 69.1 15.6
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0684  after 0.0014.
+ pi[new comps]: 0.0168 0.0168 0.0168 0.0168
+     49   50   51   52
+   168. 103. 67.1 18.8
+   155. 111. 69.8 21.5
+   144. 114. 74.6 24.5
+   134. 115. 79.4 28.3
+   127. 114. 83.1 33.1
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Creating proposal for targetUID 7 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 328.26 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 409 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.140e+03
+  103.66  103.38   43.93   77.18
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     53   54   55   56
+   103. 103. 77.1 43.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0567  after 0.0011.
+ pi[new comps]: 0.0139 0.0139 0.0139 0.0139
+     53   54   55   56
+   99.8 93.9 75.0 59.4
+   95.6 88.0 77.0 67.5
+   92.2 84.3 79.0 72.5
+   89.5 81.9 80.7 75.9
+   89.5 81.9 156. m 55
+   99.4 92.2 136.     
+Proposal build phase DONE. Created 3 candidate clusters.
+
+Creating proposal for targetUID 8 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 84.16 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 224 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -2.490e+02
+   19.32   32.72   19.10    4.17
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     57   58   59   60
+   32.7 19.3 19.0 4.17
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0265  after 0.0005.
+ pi[new comps]: 0.0065 0.0065 0.0065 0.0065
+     57   58   59   60
+   26.9 21.8 24.9 10.4
+   22.7 22.3 22.6 16.4
+   20.5 22.2 21.5 19.8
+   19.2 22.3 21.1 21.4
+   19.2 43.7 21.1 m 58
+   19.2 64.9 m 58     
+   84.1 m 57          
+   84.1               
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+Creating proposal for targetUID 11 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 48.42 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 95 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.213e+02
+   17.85    9.30    7.31    0.51
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     61   62   63   64
+   17.8 9.30 7.30 0.51
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0256  after 0.0005.
+ pi[new comps]: 0.0063 0.0063 0.0063 0.0063
+     61   62   63   64
+   16.7 16.6 8.21 6.79
+   15.9 15.9 10.0 6.49
+   15.2 15.2 11.7 6.17
+   14.8 14.7 12.9 5.87
+   27.7 14.7 m 61 5.87
+   42.5 m 61      5.87
+   41.1           7.29
+Proposal build phase DONE. Created 2 candidate clusters.
+
+Creating proposal for targetUID 15 at lap 4.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 23.54 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 51 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -4.668e+01
+    1.90    3.09    7.39    2.93
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     65   66   67   68
+   7.39 3.08 2.93 1.89
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0135  after 0.0003.
+ pi[new comps]: 0.0033 0.0033 0.0033 0.0033
+     65   66   67   68
+   7.44 6.03 3.79 6.27
+   8.09 5.46 4.58 5.40
+   8.49 5.08 5.17 4.79
+   8.79 4.81 5.54 4.38
+   8.79 10.3 m 66 4.38
+   13.1 10.3      m 65
+   23.5 m 65          
+   23.5               
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+EVALUATING birth proposals at lap 4.00
+Eval     targetUID 5 at lap 4.000 lapCeil 4 | REJECT change_loss  2.557e-02
+   gainL  2.557e-02
+    curL -1.241e-02
+   propL  1.316e-02
+   gain_  Lalloc -1.171e-01
+   gain_   Ldata  3.991e-02
+   gain_Lentropy  5.161e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval    targetUID 13 at lap 4.000 lapCeil 4 | REJECT change_loss  1.718e-02
+   gainL  1.718e-02
+    curL -1.241e-02
+   propL  4.770e-03
+   gain_  Lalloc -5.435e-02
+   gain_   Ldata  1.243e-02
+   gain_Lentropy  2.474e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval    targetUID 10 at lap 4.000 lapCeil 4 | REJECT change_loss  1.583e-02
+   gainL  1.583e-02
+    curL -1.241e-02
+   propL  3.428e-03
+   gain_  Lalloc -5.128e-02
+   gain_   Ldata  9.594e-03
+   gain_Lentropy  2.585e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval     targetUID 9 at lap 4.000 lapCeil 4 | REJECT change_loss  1.633e-02
+   gainL  1.633e-02
+    curL -1.241e-02
+   propL  3.928e-03
+   gain_  Lalloc -5.047e-02
+   gain_   Ldata  1.374e-02
+   gain_Lentropy  2.040e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval     targetUID 6 at lap 4.000 lapCeil 4 | REJECT change_loss  2.120e-02
+   gainL  2.120e-02
+    curL -1.241e-02
+   propL  8.796e-03
+   gain_  Lalloc -6.147e-02
+   gain_   Ldata  1.339e-02
+   gain_Lentropy  2.687e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval    targetUID 14 at lap 4.000 lapCeil 4 | REJECT change_loss  2.007e-02
+   gainL  2.007e-02
+    curL -1.241e-02
+   propL  7.668e-03
+   gain_  Lalloc -5.979e-02
+   gain_   Ldata  1.625e-02
+   gain_Lentropy  2.347e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval    targetUID 16 at lap 4.000 lapCeil 4 | REJECT change_loss  9.903e-03
+   gainL  9.903e-03
+    curL -1.241e-02
+   propL -2.503e-03
+   gain_  Lalloc -2.821e-02
+   gain_   Ldata  7.175e-03
+   gain_Lentropy  1.113e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval    targetUID 12 at lap 4.000 lapCeil 4 | REJECT change_loss  1.877e-02
+   gainL  1.877e-02
+    curL -1.241e-02
+   propL  6.368e-03
+   gain_  Lalloc -5.036e-02
+   gain_   Ldata  9.600e-03
+   gain_Lentropy  2.198e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval     targetUID 7 at lap 4.000 lapCeil 4 | REJECT change_loss  1.476e-02
+   gainL  1.476e-02
+    curL -1.241e-02
+   propL  2.358e-03
+   gain_  Lalloc -3.945e-02
+   gain_   Ldata  1.073e-02
+   gain_Lentropy  1.395e-02
+   Rejected. Remain at loss -1.241e-02
+
+Eval    targetUID 11 at lap 4.000 lapCeil 4 | REJECT change_loss  1.099e-03
+   gainL  1.099e-03
+    curL -1.241e-02
+   propL -1.131e-02
+   gain_  Lalloc -4.140e-03
+   gain_   Ldata  2.466e-03
+   gain_Lentropy  5.751e-04
+   Rejected. Remain at loss -1.241e-02
+
+BIRTH @ lap 4.00 : Added 0 states. 0/12 succeeded. 10/12 failed eval phase. 2/12 failed build phase.
+PLANNING birth at lap 5.000 batch 0
+PLAN at  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0 
+STATUS uid     4  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   830.998 N_ttl   830.998 BUSY MERGE PROPOSAL
+STATUS uid     5  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   814.946 N_ttl   814.946 BUSY MERGE PROPOSAL
+STATUS uid    13  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   472.590 N_ttl   472.590 BUSY MERGE PROPOSAL
+STATUS uid    10  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   447.736 N_ttl   447.736 BUSY MERGE PROPOSAL
+STATUS uid     9  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   420.998 N_ttl   420.998 BUSY MERGE PROPOSAL
+STATUS uid     6  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   412.671 N_ttl   412.671 BUSY MERGE PROPOSAL
+STATUS uid    14  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   416.220 N_ttl   416.220 BUSY MERGE PROPOSAL
+STATUS uid    16  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   370.788 N_ttl   370.788 BUSY MERGE PROPOSAL
+STATUS uid    12  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   363.364 N_ttl   363.364 BUSY MERGE PROPOSAL
+STATUS uid     7  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b   342.038 N_ttl   342.038 BUSY MERGE PROPOSAL
+STATUS uid     8  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b    69.010 N_ttl    69.010 BUSY MERGE PROPOSAL
+STATUS uid    11  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b    29.662 N_ttl    29.662 BUSY MERGE PROPOSAL
+STATUS uid    15  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     8.980 N_ttl     8.980 BUSY MERGE PROPOSAL
+STATUS uid     3  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+STATUS uid     0  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+STATUS uid     2  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+STATUS uid     1  lap   5.000 lapCeil     5 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+0/17 UIDs retained from preexisting proposals.
+17/17 UIDs too busy with other moves (merge/delete).
+0/17 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+0/17 UIDs disqualified for past failures.
+0/17 UIDs eligible for new proposal
+
+BIRTH @ lap 5.000 : None attempted. 0 past failures. 0 too small. 17 too busy.
+PLANNING birth at lap 6.000 batch 0
+PLAN at  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0 
+STATUS uid     4  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   831.004 N_ttl   831.004 BUSY MERGE PROPOSAL
+STATUS uid     5  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   814.937 N_ttl   814.937 BUSY MERGE PROPOSAL
+STATUS uid    13  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   476.386 N_ttl   476.386 BUSY MERGE PROPOSAL
+STATUS uid    10  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   443.207 N_ttl   443.207 BUSY MERGE PROPOSAL
+STATUS uid     9  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   420.998 N_ttl   420.998 BUSY MERGE PROPOSAL
+STATUS uid    14  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   418.047 N_ttl   418.047 BUSY MERGE PROPOSAL
+STATUS uid     6  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   412.916 N_ttl   412.916 BUSY MERGE PROPOSAL
+STATUS uid     7  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid    11  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   397.803 N_ttl   397.803 BUSY MERGE PROPOSAL
+STATUS uid    16  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b   369.816 N_ttl   369.816 BUSY MERGE PROPOSAL
+STATUS uid     3  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b     3.885 N_ttl     3.885 BUSY MERGE PROPOSAL
+STATUS uid     1  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+STATUS uid     0  lap   6.000 lapCeil     6 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+0/13 UIDs retained from preexisting proposals.
+13/13 UIDs too busy with other moves (merge/delete).
+0/13 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+0/13 UIDs disqualified for past failures.
+0/13 UIDs eligible for new proposal
+
+BIRTH @ lap 6.000 : None attempted. 0 past failures. 0 too small. 13 too busy.
+PLANNING birth at lap 7.000 batch 0
+PLAN at  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0 
+STATUS uid    13  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   848.393 N_ttl   848.393 BUSY MERGE PROPOSAL
+STATUS uid    10  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   840.987 N_ttl   840.987 BUSY MERGE PROPOSAL
+STATUS uid     4  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 BUSY MERGE PROPOSAL
+STATUS uid     5  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   814.985 N_ttl   814.985 BUSY MERGE PROPOSAL
+STATUS uid     9  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid    14  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   418.708 N_ttl   418.708 BUSY MERGE PROPOSAL
+STATUS uid     6  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   412.973 N_ttl   412.973 BUSY MERGE PROPOSAL
+STATUS uid     7  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid     3  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b     0.954 N_ttl     0.954 BUSY MERGE PROPOSAL
+STATUS uid     0  lap   7.000 lapCeil     7 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+0/10 UIDs retained from preexisting proposals.
+10/10 UIDs too busy with other moves (merge/delete).
+0/10 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+0/10 UIDs disqualified for past failures.
+0/10 UIDs eligible for new proposal
+
+BIRTH @ lap 7.000 : None attempted. 0 past failures. 0 too small. 10 too busy.
+PLANNING birth at lap 8.000 batch 0
+PLAN at  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0 
+STATUS uid    13  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   848.945 N_ttl   848.945 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.45 > 0.01
+ prevBatchSize    468.46 
+ curBatchSize    848.95
+STATUS uid    10  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   841.004 N_ttl   841.004 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.48 > 0.01
+ prevBatchSize    434.19 
+ curBatchSize    841.00
+STATUS uid     4  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 BUSY MERGE PROPOSAL
+STATUS uid     5  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   814.989 N_ttl   814.989 BUSY MERGE PROPOSAL
+STATUS uid     9  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid    14  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   418.971 N_ttl   418.971 BUSY MERGE PROPOSAL
+STATUS uid     6  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   413.000 N_ttl   413.000 BUSY MERGE PROPOSAL
+STATUS uid     7  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+STATUS uid     3  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b     0.091 N_ttl     0.091 BUSY MERGE PROPOSAL
+STATUS uid     0  lap   8.000 lapCeil     8 batchPos   0/1 batchID   0  N_b     0.000 N_ttl     0.000 BUSY MERGE PROPOSAL
+0/10 UIDs retained from preexisting proposals.
+8/10 UIDs too busy with other moves (merge/delete).
+0/10 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+0/10 UIDs disqualified for past failures.
+2/10 UIDs eligible for new proposal
+   uids   13   10
+cnt_ttl 848. 841.
+  cnt_b 848. 841.
+  nFail  1.0  1.0
+2/2 UIDs chosen for new proposals (rankby: cnt_b)
+   uids   13   10
+cnt_ttl 848. 841.
+  cnt_b 848. 841.
+   fail  1.0  1.0
+
+CREATING birth proposals at lap 8.00 batch 0
+Creating proposal for targetUID 13 at lap 8.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 848.95 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 849 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -2.703e+03
+  155.00  354.00  313.94   26.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     69   70   71   72
+   353. 313. 154. 25.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.1698  after 0.0034.
+ pi[new comps]: 0.0416 0.0416 0.0416 0.0416
+     69   70   71   72
+   328. 259. 156. 103.
+   300. 226. 171. 150.
+   277. 210. 188. 173.
+   260. 201. 199. 186.
+   248. 198. 207. 195.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+Creating proposal for targetUID 10 at lap 8.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 841.00 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 841 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -3.019e+03
+  156.00  246.00  318.99  120.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     73   74   75   76
+   318. 245. 155. 120.
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.1683  after 0.0034.
+ pi[new comps]: 0.0412 0.0412 0.0412 0.0412
+     73   74   75   76
+   325. 232. 155. 127.
+   315. 232. 160. 133.
+   301. 234. 166. 138.
+   286. 236. 173. 144.
+   272. 236. 180. 151.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+EVALUATING birth proposals at lap 8.00
+Eval    targetUID 13 at lap 8.000 lapCeil 8 | REJECT change_loss  2.442e-02
+   gainL  2.442e-02
+    curL -4.720e-02
+   propL -2.278e-02
+   gain_  Lalloc -1.204e-01
+   gain_   Ldata  4.088e-02
+   gain_Lentropy  5.509e-02
+   Rejected. Remain at loss -4.720e-02
+
+Eval    targetUID 10 at lap 8.000 lapCeil 8 | REJECT change_loss  2.352e-02
+   gainL  2.352e-02
+    curL -4.720e-02
+   propL -2.369e-02
+   gain_  Lalloc -1.175e-01
+   gain_   Ldata  4.473e-02
+   gain_Lentropy  4.926e-02
+   Rejected. Remain at loss -4.720e-02
+
+BIRTH @ lap 8.00 : Added 0 states. 0/2 succeeded. 2/2 failed eval phase. 0/2 failed build phase.
+PLANNING birth at lap 9.000 batch 0
+PLAN at  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0 
+STATUS uid    13  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 BUSY MERGE PROPOSAL
+STATUS uid     5  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid     0  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 BUSY MERGE PROPOSAL
+STATUS uid     6  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     7  lap   9.000 lapCeil     9 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 ELIGIBLE REACTIVATE BY BATCH SIZE.
+ Batch size percDiff 0.20 > 0.01
+ prevBatchSize    328.26 
+ curBatchSize    411.00
+0/8 UIDs retained from preexisting proposals.
+6/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+1/8 UIDs disqualified for past failures.
+   6
+1/8 UIDs eligible for new proposal
+   uids    7
+cnt_ttl 411.
+  cnt_b 411.
+  nFail  1.0
+1/1 UIDs chosen for new proposals (rankby: cnt_b)
+   uids    7
+cnt_ttl 411.
+  cnt_b 411.
+   fail  1.0
+
+CREATING birth proposals at lap 9.00 batch 0
+Creating proposal for targetUID 7 at lap 9.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 411.00 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 411 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.307e+03
+  202.00   88.00   39.00   82.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     77   78   79   80
+   201. 88.0 81.9 39.0
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0819  after 0.0016.
+ pi[new comps]: 0.0201 0.0201 0.0201 0.0201
+     77   78   79   80
+   188. 79.2 98.7 44.5
+   175. 76.7 109. 49.3
+   165. 77.3 113. 53.8
+   157. 79.4 115. 58.4
+   150. 82.2 115. 62.9
+Proposal build phase DONE. Created 4 candidate clusters.
+
+EVALUATING birth proposals at lap 9.00
+Eval     targetUID 7 at lap 9.000 lapCeil 9 | REJECT change_loss  1.698e-02
+   gainL  1.698e-02
+    curL -4.788e-02
+   propL -3.089e-02
+   gain_  Lalloc -5.603e-02
+   gain_   Ldata  1.679e-02
+   gain_Lentropy  2.225e-02
+   Rejected. Remain at loss -4.788e-02
+
+BIRTH @ lap 9.00 : Added 0 states. 0/1 succeeded. 1/1 failed eval phase. 0/1 failed build phase.
+PLANNING birth at lap 10.000 batch 0
+PLAN at  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 BUSY MERGE PROPOSAL
+STATUS uid     5  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid     0  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 BUSY MERGE PROPOSAL
+STATUS uid     6  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     7  lap  10.000 lapCeil    10 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+0/8 UIDs retained from preexisting proposals.
+8/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+0/8 UIDs disqualified for past failures.
+0/8 UIDs eligible for new proposal
+
+BIRTH @ lap 10.000 : None attempted. 0 past failures. 0 too small. 8 too busy.
+PLANNING birth at lap 11.000 batch 0
+PLAN at  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 ELIGIBLE 
+STATUS uid     5  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid     0  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 BUSY MERGE PROPOSAL
+STATUS uid     6  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     7  lap  11.000 lapCeil    11 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+0/8 UIDs retained from preexisting proposals.
+7/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+0/8 UIDs disqualified for past failures.
+1/8 UIDs eligible for new proposal
+   uids    3
+cnt_ttl 831.
+  cnt_b 831.
+  nFail <.01
+1/1 UIDs chosen for new proposals (rankby: cnt_b)
+   uids    3
+cnt_ttl 831.
+  cnt_b 831.
+   fail <.01
+
+CREATING birth proposals at lap 11.00 batch 0
+Creating proposal for targetUID 3 at lap 11.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 831.00 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 831 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -2.698e+03
+   83.00  306.00  208.00  234.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     81   82   83   84
+   306. 233. 207. 82.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.1662  after 0.0033.
+ pi[new comps]: 0.0407 0.0407 0.0407 0.0407
+     81   82   83   84
+   297. 248. 188. 96.8
+   288. 251. 180. 110.
+   281. 249. 176. 124.
+   273. 244. 176. 136.
+   265. 239. 177. 148.
+Proposal build phase DONE. Created 4 candidate clusters.
+
+EVALUATING birth proposals at lap 11.00
+Eval     targetUID 3 at lap 11.000 lapCeil 11 | REJECT change_loss  2.231e-02
+   gainL  2.231e-02
+    curL -4.788e-02
+   propL -2.557e-02
+   gain_  Lalloc -1.148e-01
+   gain_   Ldata  4.183e-02
+   gain_Lentropy  5.061e-02
+   Rejected. Remain at loss -4.788e-02
+
+BIRTH @ lap 11.00 : Added 0 states. 0/1 succeeded. 1/1 failed eval phase. 0/1 failed build phase.
+PLANNING birth at lap 12.000 batch 0
+PLAN at  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     5  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     0  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 ELIGIBLE 
+STATUS uid     6  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     7  lap  12.000 lapCeil    12 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+0/8 UIDs retained from preexisting proposals.
+5/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+2/8 UIDs disqualified for past failures.
+   3    9
+1/8 UIDs eligible for new proposal
+   uids    0
+cnt_ttl 418.
+  cnt_b 418.
+  nFail <.01
+1/1 UIDs chosen for new proposals (rankby: cnt_b)
+   uids    0
+cnt_ttl 418.
+  cnt_b 418.
+   fail <.01
+
+CREATING birth proposals at lap 12.00 batch 0
+Creating proposal for targetUID 0 at lap 12.00 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 419.00 atoms assigned out of 5000.
+  Filtering to find atoms with resp > 0.10
+  Found 419 atoms meeting this requirement.
+Running Bregman k-means with K=4 for 1 iters
+iter 0: Lscore -1.542e+03
+  144.00   67.00   89.00  119.00
+Bregman k-means DONE. Delivered 4 non-empty clusters
+     85   86   87   88
+   143. 118. 89.0 66.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0838  after 0.0017.
+ pi[new comps]: 0.0205 0.0205 0.0205 0.0205
+     85   86   87   88
+   133. 115. 93.1 76.7
+   124. 114. 95.7 84.6
+   118. 112. 97.8 90.7
+   114. 110. 99.4 95.2
+   111. 108. 100. 98.4
+Proposal build phase DONE. Created 4 candidate clusters.
+
+EVALUATING birth proposals at lap 12.00
+Eval     targetUID 0 at lap 12.000 lapCeil 12 | REJECT change_loss  1.757e-02
+   gainL  1.757e-02
+    curL -4.788e-02
+   propL -3.031e-02
+   gain_  Lalloc -5.940e-02
+   gain_   Ldata  1.688e-02
+   gain_Lentropy  2.496e-02
+   Rejected. Remain at loss -4.788e-02
+
+BIRTH @ lap 12.00 : Added 0 states. 0/1 succeeded. 1/1 failed eval phase. 0/1 failed build phase.
+PLANNING birth at lap 13.000 batch 0
+PLAN at  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 DISQUALIFIED FOR PAST FAILURE
+STATUS uid    10  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     3  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     5  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     9  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     0  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     6  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     7  lap  13.000 lapCeil    13 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 DISQUALIFIED FOR PAST FAILURE
+0/8 UIDs retained from preexisting proposals.
+0/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+8/8 UIDs disqualified for past failures.
+  13   10    3    5    9    0    6    7
+0/8 UIDs eligible for new proposal
+
+BIRTH @ lap 13.000 : None attempted. 8 past failures. 0 too small. 0 too busy.
+PLANNING birth at lap 14.000 batch 0
+PLAN at  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 BUSY MERGE PROPOSAL
+STATUS uid     5  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid     0  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 BUSY MERGE PROPOSAL
+STATUS uid     6  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     7  lap  14.000 lapCeil    14 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 DISQUALIFIED FOR PAST FAILURE
+0/8 UIDs retained from preexisting proposals.
+6/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+2/8 UIDs disqualified for past failures.
+   6    7
+0/8 UIDs eligible for new proposal
+
+BIRTH @ lap 14.000 : None attempted. 2 past failures. 0 too small. 6 too busy.
+PLANNING birth at lap 15.000 batch 0
+PLAN at  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 BUSY MERGE PROPOSAL
+STATUS uid     5  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid     0  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 BUSY MERGE PROPOSAL
+STATUS uid     6  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     7  lap  15.000 lapCeil    15 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+0/8 UIDs retained from preexisting proposals.
+8/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+0/8 UIDs disqualified for past failures.
+0/8 UIDs eligible for new proposal
+
+BIRTH @ lap 15.000 : None attempted. 0 past failures. 0 too small. 8 too busy.
+PLANNING birth at lap 16.000 batch 0
+PLAN at  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     5  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid     0  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 BUSY MERGE PROPOSAL
+STATUS uid     6  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     7  lap  16.000 lapCeil    16 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+0/8 UIDs retained from preexisting proposals.
+7/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+1/8 UIDs disqualified for past failures.
+   3
+0/8 UIDs eligible for new proposal
+
+BIRTH @ lap 16.000 : None attempted. 1 past failures. 0 too small. 7 too busy.
+PLANNING birth at lap 17.000 batch 0
+PLAN at  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     5  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     0  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     6  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 BUSY MERGE PROPOSAL
+STATUS uid     7  lap  17.000 lapCeil    17 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 BUSY MERGE PROPOSAL
+0/8 UIDs retained from preexisting proposals.
+5/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+3/8 UIDs disqualified for past failures.
+   3    9    0
+0/8 UIDs eligible for new proposal
+
+BIRTH @ lap 17.000 : None attempted. 3 past failures. 0 too small. 5 too busy.
+PLANNING birth at lap 18.000 batch 0
+PLAN at  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 DISQUALIFIED FOR PAST FAILURE
+STATUS uid    10  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     3  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     5  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     9  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     0  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     6  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     7  lap  18.000 lapCeil    18 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 DISQUALIFIED FOR PAST FAILURE
+0/8 UIDs retained from preexisting proposals.
+0/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+8/8 UIDs disqualified for past failures.
+  13   10    3    5    9    0    6    7
+0/8 UIDs eligible for new proposal
+
+BIRTH @ lap 18.000 : None attempted. 8 past failures. 0 too small. 0 too busy.
+PLANNING birth at lap 19.000 batch 0
+PLAN at  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0 
+STATUS uid    13  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   848.999 N_ttl   848.999 BUSY MERGE PROPOSAL
+STATUS uid    10  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   841.008 N_ttl   841.008 BUSY MERGE PROPOSAL
+STATUS uid     3  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   831.001 N_ttl   831.001 BUSY MERGE PROPOSAL
+STATUS uid     5  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   814.990 N_ttl   814.990 BUSY MERGE PROPOSAL
+STATUS uid     9  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   420.999 N_ttl   420.999 BUSY MERGE PROPOSAL
+STATUS uid     0  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   419.000 N_ttl   419.000 BUSY MERGE PROPOSAL
+STATUS uid     6  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   413.003 N_ttl   413.003 DISQUALIFIED FOR PAST FAILURE
+STATUS uid     7  lap  19.000 lapCeil    19 batchPos   0/1 batchID   0  N_b   411.000 N_ttl   411.000 DISQUALIFIED FOR PAST FAILURE
+0/8 UIDs retained from preexisting proposals.
+6/8 UIDs too busy with other moves (merge/delete).
+0/8 UIDs too small (too few atoms in current batch). Required size >= 2 (--b_minNumAtomsForTargetComp)
+2/8 UIDs disqualified for past failures.
+   6    7
+0/8 UIDs eligible for new proposal
+
+BIRTH @ lap 19.000 : None attempted. 2 past failures. 0 too small. 6 too busy.
