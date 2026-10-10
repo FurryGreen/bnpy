@@ -1,3 +1,30 @@
+# StellarVLA Fork: Origin and Modifications
+
+This repository is a modified version of **bnpy** for use with StellarVLA.
+
+- **Upstream organization:** [bnpy](https://github.com/bnpy)
+- **Original source repository:** [bnpy/bnpy](https://github.com/bnpy/bnpy)
+- **Modified repository:** [FurryGreen/bnpy](https://github.com/FurryGreen/bnpy)
+- **Main modification:** modified bnpy for grouped data HDP (hierarchical Dirichlet process), supporting the grouped-data HDP workflow used by StellarVLA.
+
+The original bnpy project was developed by Michael C. Hughes, Erik B. Sudderth, and the upstream contributors acknowledged below. This fork builds on their work. The original copyright notice and BSD 3-Clause license are preserved in [LICENSE.txt](LICENSE.txt).
+
+## Installing This Fork
+
+For StellarVLA, install this modified repository before installing StellarVLA's dependencies. The upstream package alone does not include the modifications used by StellarVLA.
+
+```bash
+git clone https://github.com/FurryGreen/bnpy.git
+cd bnpy
+python -m pip install -e .
+```
+
+If you already have this repository checked out, run `python -m pip install -e .` from its root directory in your active Python environment.
+
+The documentation below is retained from upstream; its project, documentation, and issue links refer to the original bnpy project.
+
+---
+
 ## **bnpy** : Bayesian nonparametric machine learning for python.
 
 [Project Website](https://bnpy.readthedocs.io/en/latest/)
